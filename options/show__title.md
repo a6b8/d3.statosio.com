@@ -41,7 +41,7 @@ Show title
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : true, "view__dom_id" : "a" }
+    { "showTitle" : true, "view__dom_id" : "a" }
 )
 
       </script>
@@ -56,10 +56,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : true }``` | Object |
+| **Options** | ```{ "showTitle" : true }``` | Object |
 
 
 ### Source Code
@@ -71,7 +71,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : true }
+    { "showTitle" : true }
 )
 ```
 
@@ -88,21 +88,16 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : true }
+                    { "showTitle" : true }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/show__title.html#example-a")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Show title</div>
 </body>
 ```
 ## Example B.
@@ -117,7 +112,7 @@ Hide title
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : false, "view__dom_id" : "b" }
+    { "showTitle" : false, "view__dom_id" : "b" }
 )
 
       </script>
@@ -132,10 +127,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : false }``` | Object |
+| **Options** | ```{ "showTitle" : false }``` | Object |
 
 
 ### Source Code
@@ -147,7 +142,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : false }
+    { "showTitle" : false }
 )
 ```
 
@@ -164,20 +159,15 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : false }
+                    { "showTitle" : false }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/show__title.html#example-b")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Hide title</div>
 </body>
 ```

@@ -37,7 +37,7 @@ Set bottom margin to: ```0```
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : 0, "view__dom_id" : "a" }
+    { "viewMarginBottom" : 0, "view__dom_id" : "a" }
 )
 
       </script>
@@ -52,10 +52,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : 0 }``` | Object |
+| **Options** | ```{ "viewMarginBottom" : 0 }``` | Object |
 
 
 ### Source Code
@@ -67,7 +67,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : 0 }
+    { "viewMarginBottom" : 0 }
 )
 ```
 
@@ -84,21 +84,16 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : 0 }
+                    { "viewMarginBottom" : 0 }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/view__margin__bottom.html#example-a")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Set bottom margin to: ```0```</div>
 </body>
 ```
 ## Example B.
@@ -113,7 +108,7 @@ Set bottom margin to: ```200```
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : 200, "view__dom_id" : "b" }
+    { "viewMarginBottom" : 200, "view__dom_id" : "b" }
 )
 
       </script>
@@ -128,10 +123,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : 200 }``` | Object |
+| **Options** | ```{ "viewMarginBottom" : 200 }``` | Object |
 
 
 ### Source Code
@@ -143,7 +138,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : 200 }
+    { "viewMarginBottom" : 200 }
 )
 ```
 
@@ -160,20 +155,15 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : 200 }
+                    { "viewMarginBottom" : 200 }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/view__margin__bottom.html#example-b")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Set bottom margin to: ```200```</div>
 </body>
 ```

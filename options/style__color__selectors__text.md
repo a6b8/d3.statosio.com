@@ -37,7 +37,7 @@ Set font color of selection and others to: ```["yellow", "grey"]```
     file, 
     "domain", 
     [ "mobile",  "desktop" ], 
-    { "self" : ["yellow", "grey"], "view__dom_id" : "a" }
+    { "styleColorSelectorsText" : ["yellow", "grey"], "view__dom_id" : "a" }
 )
 
       </script>
@@ -52,10 +52,10 @@ This dataset shows the mobile **and** desktop google pagerank performance score 
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile",  "desktop" ]``` | Array |
-| **Options** | ```{ "self" : ["yellow", "grey"] }``` | Object |
+| **Options** | ```{ "styleColorSelectorsText" : ["yellow", "grey"] }``` | Object |
 
 
 ### Source Code
@@ -67,7 +67,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile",  "desktop" ], 
-    { "self" : ["yellow", "grey"] }
+    { "styleColorSelectorsText" : ["yellow", "grey"] }
 )
 ```
 
@@ -84,21 +84,16 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile",  "desktop" ], 
-                    { "self" : ["yellow", "grey"] }
+                    { "styleColorSelectorsText" : ["yellow", "grey"] }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/style__color__selectors__text.html#example-a")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Set font color of selection and others to: ```["yellow", "grey"]```</div>
 </body>
 ```
 ## Example B.
@@ -113,7 +108,7 @@ Set font color of selection and others to: ```["#f59351", "#a6b797"]```
     file, 
     "domain", 
     [ "mobile",  "desktop" ], 
-    { "self" : ["#f59351", "#a6b797"], "view__dom_id" : "b" }
+    { "styleColorSelectorsText" : ["#f59351", "#a6b797"], "view__dom_id" : "b" }
 )
 
       </script>
@@ -128,10 +123,10 @@ This dataset shows the mobile **and** desktop google pagerank performance score 
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile",  "desktop" ]``` | Array |
-| **Options** | ```{ "self" : ["#f59351", "#a6b797"] }``` | Object |
+| **Options** | ```{ "styleColorSelectorsText" : ["#f59351", "#a6b797"] }``` | Object |
 
 
 ### Source Code
@@ -143,7 +138,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile",  "desktop" ], 
-    { "self" : ["#f59351", "#a6b797"] }
+    { "styleColorSelectorsText" : ["#f59351", "#a6b797"] }
 )
 ```
 
@@ -160,20 +155,15 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile",  "desktop" ], 
-                    { "self" : ["#f59351", "#a6b797"] }
+                    { "styleColorSelectorsText" : ["#f59351", "#a6b797"] }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/style__color__selectors__text.html#example-b")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Set font color of selection and others to: ```["#f59351", "#a6b797"]```</div>
 </body>
 ```

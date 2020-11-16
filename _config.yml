@@ -13,3 +13,5 @@ plugins:
     
 readme_index:
     with_frontmatter: true
+
+destination: ./docs

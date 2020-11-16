@@ -37,7 +37,7 @@ Replace character "```_```" to " " in the legend text label
     file, 
     "domain", 
     [ "mobile",  "desktop" ], 
-    { "showLegend" : true, "self" : "_", "view__dom_id" : "a" }
+    { "showLegend" : true, "dataLegendTextSeparater" : "_", "view__dom_id" : "a" }
 )
 
       </script>
@@ -52,10 +52,10 @@ This dataset shows the mobile **and** desktop google pagerank performance score 
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile",  "desktop" ]``` | Array |
-| **Options** | ```{ "showLegend" : true, "self" : "_" }``` | Object |
+| **Options** | ```{ "showLegend" : true, "dataLegendTextSeparater" : "_" }``` | Object |
 
 
 ### Source Code
@@ -67,7 +67,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile",  "desktop" ], 
-    { "showLegend" : true, "self" : "_" }
+    { "showLegend" : true, "dataLegendTextSeparater" : "_" }
 )
 ```
 
@@ -84,20 +84,15 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile",  "desktop" ], 
-                    { "showLegend" : true, "self" : "_" }
+                    { "showLegend" : true, "dataLegendTextSeparater" : "_" }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/data__legend__text__separater.html#example-a")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Replace character "```_```" to " " in the legend text label</div>
 </body>
 ```

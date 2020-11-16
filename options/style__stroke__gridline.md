@@ -37,7 +37,7 @@ Set stroke weight of gridline to: ```2```
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : 2, "view__dom_id" : "a" }
+    { "styleStrokeGridline" : 2, "view__dom_id" : "a" }
 )
 
       </script>
@@ -52,10 +52,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : 2 }``` | Object |
+| **Options** | ```{ "styleStrokeGridline" : 2 }``` | Object |
 
 
 ### Source Code
@@ -67,7 +67,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : 2 }
+    { "styleStrokeGridline" : 2 }
 )
 ```
 
@@ -84,21 +84,16 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : 2 }
+                    { "styleStrokeGridline" : 2 }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/style__stroke__gridline.html#example-a")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Set stroke weight of gridline to: ```2```</div>
 </body>
 ```
 ## Example B.
@@ -113,7 +108,7 @@ Set stroke weight of gridline to: ```14```
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : 14, "view__dom_id" : "b" }
+    { "styleStrokeGridline" : 14, "view__dom_id" : "b" }
 )
 
       </script>
@@ -128,10 +123,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : 14 }``` | Object |
+| **Options** | ```{ "styleStrokeGridline" : 14 }``` | Object |
 
 
 ### Source Code
@@ -143,7 +138,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : 14 }
+    { "styleStrokeGridline" : 14 }
 )
 ```
 
@@ -160,20 +155,15 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : 14 }
+                    { "styleStrokeGridline" : 14 }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/style__stroke__gridline.html#example-b")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Set stroke weight of gridline to: ```14```</div>
 </body>
 ```

@@ -41,7 +41,7 @@ Show legend
     file, 
     "domain", 
     [ "mobile",  "desktop" ], 
-    { "self" : true, "view__dom_id" : "a" }
+    { "showLegend" : true, "view__dom_id" : "a" }
 )
 
       </script>
@@ -56,10 +56,10 @@ This dataset shows the mobile **and** desktop google pagerank performance score 
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile",  "desktop" ]``` | Array |
-| **Options** | ```{ "self" : true }``` | Object |
+| **Options** | ```{ "showLegend" : true }``` | Object |
 
 
 ### Source Code
@@ -71,7 +71,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile",  "desktop" ], 
-    { "self" : true }
+    { "showLegend" : true }
 )
 ```
 
@@ -88,21 +88,16 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile",  "desktop" ], 
-                    { "self" : true }
+                    { "showLegend" : true }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/show__legend.html#example-a")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Show legend</div>
 </body>
 ```
 ## Example B.
@@ -117,7 +112,7 @@ Hide legend
     file, 
     "domain", 
     [ "mobile",  "desktop" ], 
-    { "self" : false, "view__dom_id" : "b" }
+    { "showLegend" : false, "view__dom_id" : "b" }
 )
 
       </script>
@@ -132,10 +127,10 @@ This dataset shows the mobile **and** desktop google pagerank performance score 
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile",  "desktop" ]``` | Array |
-| **Options** | ```{ "self" : false }``` | Object |
+| **Options** | ```{ "showLegend" : false }``` | Object |
 
 
 ### Source Code
@@ -147,7 +142,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile",  "desktop" ], 
-    { "self" : false }
+    { "showLegend" : false }
 )
 ```
 
@@ -164,20 +159,15 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile",  "desktop" ], 
-                    { "self" : false }
+                    { "showLegend" : false }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/show__legend.html#example-b")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Hide legend</div>
 </body>
 ```

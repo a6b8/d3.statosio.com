@@ -37,7 +37,7 @@ Change suffix for cut of x range text labels to: ```-----```
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : "-----", "dataXTextLength" : 10, "view__dom_id" : "a" }
+    { "dataXTextPlaceholder" : "-----", "dataXTextLength" : 10, "view__dom_id" : "a" }
 )
 
       </script>
@@ -52,10 +52,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : "-----", "dataXTextLength" : 10 }``` | Object |
+| **Options** | ```{ "dataXTextPlaceholder" : "-----", "dataXTextLength" : 10 }``` | Object |
 
 
 ### Source Code
@@ -67,7 +67,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : "-----", "dataXTextLength" : 10 }
+    { "dataXTextPlaceholder" : "-----", "dataXTextLength" : 10 }
 )
 ```
 
@@ -84,21 +84,16 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : "-----", "dataXTextLength" : 10 }
+                    { "dataXTextPlaceholder" : "-----", "dataXTextLength" : 10 }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/data__x__text__placeholder.html#example-a")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Change suffix for cut of x range text labels to: ```-----```</div>
 </body>
 ```
 ## Example B.
@@ -113,7 +108,7 @@ Change suffix for cut of x range text labels to: ``````
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : "", "dataXTextLength" : 10, "view__dom_id" : "b" }
+    { "dataXTextPlaceholder" : "", "dataXTextLength" : 10, "view__dom_id" : "b" }
 )
 
       </script>
@@ -128,10 +123,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : "", "dataXTextLength" : 10 }``` | Object |
+| **Options** | ```{ "dataXTextPlaceholder" : "", "dataXTextLength" : 10 }``` | Object |
 
 
 ### Source Code
@@ -143,7 +138,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : "", "dataXTextLength" : 10 }
+    { "dataXTextPlaceholder" : "", "dataXTextLength" : 10 }
 )
 ```
 
@@ -160,20 +155,15 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : "", "dataXTextLength" : 10 }
+                    { "dataXTextPlaceholder" : "", "dataXTextLength" : 10 }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/data__x__text__placeholder.html#example-b")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Change suffix for cut of x range text labels to: ``````</div>
 </body>
 ```

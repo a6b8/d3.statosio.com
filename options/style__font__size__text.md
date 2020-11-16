@@ -37,7 +37,7 @@ Set default font size to: ```20```
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : 20, "view__dom_id" : "a" }
+    { "styleFontSizeText" : 20, "view__dom_id" : "a" }
 )
 
       </script>
@@ -52,10 +52,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : 20 }``` | Object |
+| **Options** | ```{ "styleFontSizeText" : 20 }``` | Object |
 
 
 ### Source Code
@@ -67,7 +67,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : 20 }
+    { "styleFontSizeText" : 20 }
 )
 ```
 
@@ -84,21 +84,16 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : 20 }
+                    { "styleFontSizeText" : 20 }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/style__font__size__text.html#example-a")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Set default font size to: ```20```</div>
 </body>
 ```
 ## Example B.
@@ -113,7 +108,7 @@ Set default font size to: ```5```
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : 5, "view__dom_id" : "b" }
+    { "styleFontSizeText" : 5, "view__dom_id" : "b" }
 )
 
       </script>
@@ -128,10 +123,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : 5 }``` | Object |
+| **Options** | ```{ "styleFontSizeText" : 5 }``` | Object |
 
 
 ### Source Code
@@ -143,7 +138,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : 5 }
+    { "styleFontSizeText" : 5 }
 )
 ```
 
@@ -160,20 +155,15 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : 5 }
+                    { "styleFontSizeText" : 5 }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/style__font__size__text.html#example-b")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Set default font size to: ```5```</div>
 </body>
 ```

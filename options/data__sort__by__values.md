@@ -41,7 +41,7 @@ Set sequence to: ```ascending```
     file, 
     "domain", 
     [ "mobile" ], 
-    { "dataSortCurrent" : "values", "self" : "ascending", "view__dom_id" : "a" }
+    { "dataSortCurrent" : "values", "dataSortByValues" : "ascending", "view__dom_id" : "a" }
 )
 
       </script>
@@ -56,10 +56,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "dataSortCurrent" : "values", "self" : "ascending" }``` | Object |
+| **Options** | ```{ "dataSortCurrent" : "values", "dataSortByValues" : "ascending" }``` | Object |
 
 
 ### Source Code
@@ -71,7 +71,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "dataSortCurrent" : "values", "self" : "ascending" }
+    { "dataSortCurrent" : "values", "dataSortByValues" : "ascending" }
 )
 ```
 
@@ -88,21 +88,16 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "dataSortCurrent" : "values", "self" : "ascending" }
+                    { "dataSortCurrent" : "values", "dataSortByValues" : "ascending" }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/data__sort__by__values.html#example-a")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Set sequence to: ```ascending```</div>
 </body>
 ```
 ## Example B.
@@ -117,7 +112,7 @@ Set sequence to: ```decending```
     file, 
     "domain", 
     [ "mobile" ], 
-    { "dataSortCurrent" : "values", "self" : "decending", "view__dom_id" : "b" }
+    { "dataSortCurrent" : "values", "dataSortByValues" : "decending", "view__dom_id" : "b" }
 )
 
       </script>
@@ -132,10 +127,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "dataSortCurrent" : "values", "self" : "decending" }``` | Object |
+| **Options** | ```{ "dataSortCurrent" : "values", "dataSortByValues" : "decending" }``` | Object |
 
 
 ### Source Code
@@ -147,7 +142,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "dataSortCurrent" : "values", "self" : "decending" }
+    { "dataSortCurrent" : "values", "dataSortByValues" : "decending" }
 )
 ```
 
@@ -164,20 +159,15 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "dataSortCurrent" : "values", "self" : "decending" }
+                    { "dataSortCurrent" : "values", "dataSortByValues" : "decending" }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/data__sort__by__values.html#example-b")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Set sequence to: ```decending```</div>
 </body>
 ```

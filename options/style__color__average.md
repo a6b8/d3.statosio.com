@@ -37,7 +37,7 @@ Set average color line to: ```purple```
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : "purple", "view__dom_id" : "a" }
+    { "styleColorAverage" : "purple", "view__dom_id" : "a" }
 )
 
       </script>
@@ -52,10 +52,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : "purple" }``` | Object |
+| **Options** | ```{ "styleColorAverage" : "purple" }``` | Object |
 
 
 ### Source Code
@@ -67,7 +67,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : "purple" }
+    { "styleColorAverage" : "purple" }
 )
 ```
 
@@ -84,21 +84,16 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : "purple" }
+                    { "styleColorAverage" : "purple" }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/style__color__average.html#example-a")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Set average color line to: ```purple```</div>
 </body>
 ```
 ## Example B.
@@ -113,7 +108,7 @@ Set average color line to: ```#c1033c```
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : "#c1033c", "view__dom_id" : "b" }
+    { "styleColorAverage" : "#c1033c", "view__dom_id" : "b" }
 )
 
       </script>
@@ -128,10 +123,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : "#c1033c" }``` | Object |
+| **Options** | ```{ "styleColorAverage" : "#c1033c" }``` | Object |
 
 
 ### Source Code
@@ -143,7 +138,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : "#c1033c" }
+    { "styleColorAverage" : "#c1033c" }
 )
 ```
 
@@ -160,20 +155,15 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : "#c1033c" }
+                    { "styleColorAverage" : "#c1033c" }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/style__color__average.html#example-b")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Set average color line to: ```#c1033c```</div>
 </body>
 ```

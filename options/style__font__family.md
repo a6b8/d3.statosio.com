@@ -37,7 +37,7 @@ Set default font family to: ```georgia```
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : "georgia", "view__dom_id" : "a" }
+    { "styleFontFamily" : "georgia", "view__dom_id" : "a" }
 )
 
       </script>
@@ -52,10 +52,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : "georgia" }``` | Object |
+| **Options** | ```{ "styleFontFamily" : "georgia" }``` | Object |
 
 
 ### Source Code
@@ -67,7 +67,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : "georgia" }
+    { "styleFontFamily" : "georgia" }
 )
 ```
 
@@ -84,21 +84,16 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : "georgia" }
+                    { "styleFontFamily" : "georgia" }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/style__font__family.html#example-a")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Set default font family to: ```georgia```</div>
 </body>
 ```
 ## Example B.
@@ -113,7 +108,7 @@ Set default font family to: ```verdana```
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : "verdana", "view__dom_id" : "b" }
+    { "styleFontFamily" : "verdana", "view__dom_id" : "b" }
 )
 
       </script>
@@ -128,10 +123,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : "verdana" }``` | Object |
+| **Options** | ```{ "styleFontFamily" : "verdana" }``` | Object |
 
 
 ### Source Code
@@ -143,7 +138,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : "verdana" }
+    { "styleFontFamily" : "verdana" }
 )
 ```
 
@@ -160,20 +155,15 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : "verdana" }
+                    { "styleFontFamily" : "verdana" }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/style__font__family.html#example-b")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Set default font family to: ```verdana```</div>
 </body>
 ```

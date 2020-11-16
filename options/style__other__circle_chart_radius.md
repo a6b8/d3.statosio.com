@@ -41,7 +41,7 @@ Set circle radius to: ```4```
     file, 
     "domain", 
     [ "mobile" ], 
-    { "showDataAsCircle" : true, "self" : 4, "view__dom_id" : "a" }
+    { "showDataAsCircle" : true, "styleOtherCircleChartRadius" : 4, "view__dom_id" : "a" }
 )
 
       </script>
@@ -56,10 +56,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "showDataAsCircle" : true, "self" : 4 }``` | Object |
+| **Options** | ```{ "showDataAsCircle" : true, "styleOtherCircleChartRadius" : 4 }``` | Object |
 
 
 ### Source Code
@@ -71,7 +71,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "showDataAsCircle" : true, "self" : 4 }
+    { "showDataAsCircle" : true, "styleOtherCircleChartRadius" : 4 }
 )
 ```
 
@@ -88,21 +88,16 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "showDataAsCircle" : true, "self" : 4 }
+                    { "showDataAsCircle" : true, "styleOtherCircleChartRadius" : 4 }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/style__other__circle_chart_radius.html#example-a")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Set circle radius to: ```4```</div>
 </body>
 ```
 ## Example B.
@@ -117,7 +112,7 @@ Set circle radius to: ```14```
     file, 
     "domain", 
     [ "mobile" ], 
-    { "showDataAsCircle" : true, "self" : 14, "view__dom_id" : "b" }
+    { "showDataAsCircle" : true, "styleOtherCircleChartRadius" : 14, "view__dom_id" : "b" }
 )
 
       </script>
@@ -132,10 +127,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "showDataAsCircle" : true, "self" : 14 }``` | Object |
+| **Options** | ```{ "showDataAsCircle" : true, "styleOtherCircleChartRadius" : 14 }``` | Object |
 
 
 ### Source Code
@@ -147,7 +142,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "showDataAsCircle" : true, "self" : 14 }
+    { "showDataAsCircle" : true, "styleOtherCircleChartRadius" : 14 }
 )
 ```
 
@@ -164,20 +159,15 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "showDataAsCircle" : true, "self" : 14 }
+                    { "showDataAsCircle" : true, "styleOtherCircleChartRadius" : 14 }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/style__other__circle_chart_radius.html#example-b")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Set circle radius to: ```14```</div>
 </body>
 ```

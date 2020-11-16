@@ -41,7 +41,7 @@ Set selection to: ```start```
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : "start", "view__dom_id" : "a" }
+    { "dataSortSelection" : "start", "view__dom_id" : "a" }
 )
 
       </script>
@@ -56,10 +56,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : "start" }``` | Object |
+| **Options** | ```{ "dataSortSelection" : "start" }``` | Object |
 
 
 ### Source Code
@@ -71,7 +71,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : "start" }
+    { "dataSortSelection" : "start" }
 )
 ```
 
@@ -88,21 +88,16 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : "start" }
+                    { "dataSortSelection" : "start" }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/data__sort__selection.html#example-a")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Set selection to: ```start```</div>
 </body>
 ```
 ## Example B.
@@ -117,7 +112,7 @@ Set selection to: ```end```
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : "end", "view__dom_id" : "b" }
+    { "dataSortSelection" : "end", "view__dom_id" : "b" }
 )
 
       </script>
@@ -132,10 +127,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : "end" }``` | Object |
+| **Options** | ```{ "dataSortSelection" : "end" }``` | Object |
 
 
 ### Source Code
@@ -147,7 +142,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : "end" }
+    { "dataSortSelection" : "end" }
 )
 ```
 
@@ -164,20 +159,15 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : "end" }
+                    { "dataSortSelection" : "end" }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/data__sort__selection.html#example-b")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Set selection to: ```end```</div>
 </body>
 ```

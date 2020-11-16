@@ -41,7 +41,7 @@ Set color legend palette to: ```["yellow", "red", "green"]```
     file, 
     "domain", 
     [ "mobile",  "desktop" ], 
-    { "self" : ["yellow", "red", "green"], "view__dom_id" : "a" }
+    { "styleColorLegends" : ["yellow", "red", "green"], "view__dom_id" : "a" }
 )
 
       </script>
@@ -56,10 +56,10 @@ This dataset shows the mobile **and** desktop google pagerank performance score 
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile",  "desktop" ]``` | Array |
-| **Options** | ```{ "self" : ["yellow", "red", "green"] }``` | Object |
+| **Options** | ```{ "styleColorLegends" : ["yellow", "red", "green"] }``` | Object |
 
 
 ### Source Code
@@ -71,7 +71,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile",  "desktop" ], 
-    { "self" : ["yellow", "red", "green"] }
+    { "styleColorLegends" : ["yellow", "red", "green"] }
 )
 ```
 
@@ -88,21 +88,16 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile",  "desktop" ], 
-                    { "self" : ["yellow", "red", "green"] }
+                    { "styleColorLegends" : ["yellow", "red", "green"] }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/style__color__legends.html#example-a")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Set color legend palette to: ```["yellow", "red", "green"]```</div>
 </body>
 ```
 ## Example B.
@@ -117,7 +112,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile",  "desktop" ], 
-    { "self" : ["#f59351", "#c9504a", "#12514c", "#2f7872", "#a6b797"], "view__dom_id" : "b" }
+    { "styleColorLegends" : ["#f59351", "#c9504a", "#12514c", "#2f7872", "#a6b797"], "view__dom_id" : "b" }
 )
 
       </script>
@@ -132,10 +127,10 @@ This dataset shows the mobile **and** desktop google pagerank performance score 
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile",  "desktop" ]``` | Array |
-| **Options** | ```{ "self" : ["#f59351", "#c9504a", "#12514c", "#2f7872", "#a6b797"] }``` | Object |
+| **Options** | ```{ "styleColorLegends" : ["#f59351", "#c9504a", "#12514c", "#2f7872", "#a6b797"] }``` | Object |
 
 
 ### Source Code
@@ -147,7 +142,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile",  "desktop" ], 
-    { "self" : ["#f59351", "#c9504a", "#12514c", "#2f7872", "#a6b797"] }
+    { "styleColorLegends" : ["#f59351", "#c9504a", "#12514c", "#2f7872", "#a6b797"] }
 )
 ```
 
@@ -164,20 +159,15 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile",  "desktop" ], 
-                    { "self" : ["#f59351", "#c9504a", "#12514c", "#2f7872", "#a6b797"] }
+                    { "styleColorLegends" : ["#f59351", "#c9504a", "#12514c", "#2f7872", "#a6b797"] }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/style__color__legends.html#example-b")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;"></div>
 </body>
 ```

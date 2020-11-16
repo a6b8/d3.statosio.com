@@ -37,7 +37,7 @@ Set total width to: ```200```
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : 200, "view__dom_id" : "a" }
+    { "viewWidthOuter" : 200, "view__dom_id" : "a" }
 )
 
       </script>
@@ -52,10 +52,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : 200 }``` | Object |
+| **Options** | ```{ "viewWidthOuter" : 200 }``` | Object |
 
 
 ### Source Code
@@ -67,7 +67,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : 200 }
+    { "viewWidthOuter" : 200 }
 )
 ```
 
@@ -84,21 +84,16 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : 200 }
+                    { "viewWidthOuter" : 200 }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/view__width__outer.html#example-a")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Set total width to: ```200```</div>
 </body>
 ```
 ## Example B.
@@ -113,7 +108,7 @@ Set total width to: ```800```
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : 800, "view__dom_id" : "b" }
+    { "viewWidthOuter" : 800, "view__dom_id" : "b" }
 )
 
       </script>
@@ -128,10 +123,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : 800 }``` | Object |
+| **Options** | ```{ "viewWidthOuter" : 800 }``` | Object |
 
 
 ### Source Code
@@ -143,7 +138,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : 800 }
+    { "viewWidthOuter" : 800 }
 )
 ```
 
@@ -160,20 +155,15 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : 800 }
+                    { "viewWidthOuter" : 800 }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/view__width__outer.html#example-b")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Set total width to: ```800```</div>
 </body>
 ```

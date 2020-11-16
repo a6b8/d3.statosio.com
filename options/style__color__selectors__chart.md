@@ -37,7 +37,7 @@ Set palette to: ```["yellow", "red", "green"]```
     file, 
     "domain", 
     [ "mobile",  "desktop" ], 
-    { "self" : ["yellow", "red", "green"], "view__dom_id" : "a" }
+    { "styleColorSelectorsChart" : ["yellow", "red", "green"], "view__dom_id" : "a" }
 )
 
       </script>
@@ -52,10 +52,10 @@ This dataset shows the mobile **and** desktop google pagerank performance score 
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile",  "desktop" ]``` | Array |
-| **Options** | ```{ "self" : ["yellow", "red", "green"] }``` | Object |
+| **Options** | ```{ "styleColorSelectorsChart" : ["yellow", "red", "green"] }``` | Object |
 
 
 ### Source Code
@@ -67,7 +67,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile",  "desktop" ], 
-    { "self" : ["yellow", "red", "green"] }
+    { "styleColorSelectorsChart" : ["yellow", "red", "green"] }
 )
 ```
 
@@ -84,21 +84,16 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile",  "desktop" ], 
-                    { "self" : ["yellow", "red", "green"] }
+                    { "styleColorSelectorsChart" : ["yellow", "red", "green"] }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/style__color__selectors__chart.html#example-a")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Set palette to: ```["yellow", "red", "green"]```</div>
 </body>
 ```
 ## Example B.
@@ -113,7 +108,7 @@ Set palette to: ```["#f59351", "#c9504a", "#12514c"]```
     file, 
     "domain", 
     [ "mobile",  "desktop" ], 
-    { "self" : ["#f59351", "#c9504a", "#12514c"], "view__dom_id" : "b" }
+    { "styleColorSelectorsChart" : ["#f59351", "#c9504a", "#12514c"], "view__dom_id" : "b" }
 )
 
       </script>
@@ -128,10 +123,10 @@ This dataset shows the mobile **and** desktop google pagerank performance score 
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile",  "desktop" ]``` | Array |
-| **Options** | ```{ "self" : ["#f59351", "#c9504a", "#12514c"] }``` | Object |
+| **Options** | ```{ "styleColorSelectorsChart" : ["#f59351", "#c9504a", "#12514c"] }``` | Object |
 
 
 ### Source Code
@@ -143,7 +138,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile",  "desktop" ], 
-    { "self" : ["#f59351", "#c9504a", "#12514c"] }
+    { "styleColorSelectorsChart" : ["#f59351", "#c9504a", "#12514c"] }
 )
 ```
 
@@ -160,20 +155,15 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile",  "desktop" ], 
-                    { "self" : ["#f59351", "#c9504a", "#12514c"] }
+                    { "styleColorSelectorsChart" : ["#f59351", "#c9504a", "#12514c"] }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/style__color__selectors__chart.html#example-b")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Set palette to: ```["#f59351", "#c9504a", "#12514c"]```</div>
 </body>
 ```

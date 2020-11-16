@@ -37,7 +37,7 @@ Set total height to: ```100```
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : 100, "view__dom_id" : "a" }
+    { "viewHeightOuter" : 100, "view__dom_id" : "a" }
 )
 
       </script>
@@ -52,10 +52,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : 100 }``` | Object |
+| **Options** | ```{ "viewHeightOuter" : 100 }``` | Object |
 
 
 ### Source Code
@@ -67,7 +67,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : 100 }
+    { "viewHeightOuter" : 100 }
 )
 ```
 
@@ -84,21 +84,16 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : 100 }
+                    { "viewHeightOuter" : 100 }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/view__height__outer.html#example-a")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Set total height to: ```100```</div>
 </body>
 ```
 ## Example B.
@@ -113,7 +108,7 @@ Set total height to: ```600```
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : 600, "view__dom_id" : "b" }
+    { "viewHeightOuter" : 600, "view__dom_id" : "b" }
 )
 
       </script>
@@ -128,10 +123,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : 600 }``` | Object |
+| **Options** | ```{ "viewHeightOuter" : 600 }``` | Object |
 
 
 ### Source Code
@@ -143,7 +138,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : 600 }
+    { "viewHeightOuter" : 600 }
 )
 ```
 
@@ -160,20 +155,15 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : 600 }
+                    { "viewHeightOuter" : 600 }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/view__height__outer.html#example-b")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Set total height to: ```600```</div>
 </body>
 ```

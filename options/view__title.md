@@ -41,7 +41,7 @@ Change title to: "```42```"
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : "42", "view__dom_id" : "a" }
+    { "viewTitle" : "42", "view__dom_id" : "a" }
 )
 
       </script>
@@ -56,10 +56,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : "42" }``` | Object |
+| **Options** | ```{ "viewTitle" : "42" }``` | Object |
 
 
 ### Source Code
@@ -71,7 +71,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : "42" }
+    { "viewTitle" : "42" }
 )
 ```
 
@@ -88,20 +88,15 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : "42" }
+                    { "viewTitle" : "42" }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/view__title.html#example-a")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Change title to: "```42```"</div>
 </body>
 ```

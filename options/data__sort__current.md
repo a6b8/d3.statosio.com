@@ -37,7 +37,7 @@ Set sort to: ```values```
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : "values", "view__dom_id" : "a" }
+    { "dataSortCurrent" : "values", "view__dom_id" : "a" }
 )
 
       </script>
@@ -52,10 +52,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : "values" }``` | Object |
+| **Options** | ```{ "dataSortCurrent" : "values" }``` | Object |
 
 
 ### Source Code
@@ -67,7 +67,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : "values" }
+    { "dataSortCurrent" : "values" }
 )
 ```
 
@@ -84,21 +84,16 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : "values" }
+                    { "dataSortCurrent" : "values" }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/data__sort__current.html#example-a")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Set sort to: ```values```</div>
 </body>
 ```
 ## Example B.
@@ -113,7 +108,7 @@ Set sort to: ```names```
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : "names", "view__dom_id" : "b" }
+    { "dataSortCurrent" : "names", "view__dom_id" : "b" }
 )
 
       </script>
@@ -128,10 +123,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : "names" }``` | Object |
+| **Options** | ```{ "dataSortCurrent" : "names" }``` | Object |
 
 
 ### Source Code
@@ -143,7 +138,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : "names" }
+    { "dataSortCurrent" : "names" }
 )
 ```
 
@@ -160,20 +155,15 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : "names" }
+                    { "dataSortCurrent" : "names" }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/data__sort__current.html#example-b")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Set sort to: ```names```</div>
 </body>
 ```

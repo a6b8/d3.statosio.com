@@ -37,7 +37,7 @@ Insert SVG into the DOM Element with the id: "```findMe```"
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : "findMe", "view__dom_id" : "a" }
+    { "viewDomId" : "findMe", "view__dom_id" : "a" }
 )
 
       </script>
@@ -52,10 +52,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : "findMe" }``` | Object |
+| **Options** | ```{ "viewDomId" : "findMe" }``` | Object |
 
 
 ### Source Code
@@ -67,7 +67,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : "findMe" }
+    { "viewDomId" : "findMe" }
 )
 ```
 
@@ -84,20 +84,15 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : "findMe" }
+                    { "viewDomId" : "findMe" }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/view__dom_id.html#example-a")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Insert SVG into the DOM Element with the id: "```findMe```"</div>
 </body>
 ```

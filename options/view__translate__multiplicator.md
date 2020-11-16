@@ -37,7 +37,7 @@ Change distance between title, legend and diagram to: ```0.42```
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : 0.42, "view__dom_id" : "a" }
+    { "viewTranslateMultiplicator" : 0.42, "view__dom_id" : "a" }
 )
 
       </script>
@@ -52,10 +52,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : 0.42 }``` | Object |
+| **Options** | ```{ "viewTranslateMultiplicator" : 0.42 }``` | Object |
 
 
 ### Source Code
@@ -67,7 +67,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : 0.42 }
+    { "viewTranslateMultiplicator" : 0.42 }
 )
 ```
 
@@ -84,21 +84,16 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : 0.42 }
+                    { "viewTranslateMultiplicator" : 0.42 }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/view__translate__multiplicator.html#example-a")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Change distance between title, legend and diagram to: ```0.42```</div>
 </body>
 ```
 ## Example B.
@@ -113,7 +108,7 @@ Change distance between title, legend and diagram to: ```2.42```
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : 2.42, "view__dom_id" : "b" }
+    { "viewTranslateMultiplicator" : 2.42, "view__dom_id" : "b" }
 )
 
       </script>
@@ -128,10 +123,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : 2.42 }``` | Object |
+| **Options** | ```{ "viewTranslateMultiplicator" : 2.42 }``` | Object |
 
 
 ### Source Code
@@ -143,7 +138,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : 2.42 }
+    { "viewTranslateMultiplicator" : 2.42 }
 )
 ```
 
@@ -160,20 +155,15 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : 2.42 }
+                    { "viewTranslateMultiplicator" : 2.42 }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/view__translate__multiplicator.html#example-b")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Change distance between title, legend and diagram to: ```2.42```</div>
 </body>
 ```

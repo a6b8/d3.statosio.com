@@ -41,7 +41,7 @@ Change y range ticks to: ```2```
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : 2, "view__dom_id" : "a" }
+    { "dataYTicks" : 2, "view__dom_id" : "a" }
 )
 
       </script>
@@ -56,10 +56,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : 2 }``` | Object |
+| **Options** | ```{ "dataYTicks" : 2 }``` | Object |
 
 
 ### Source Code
@@ -71,7 +71,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : 2 }
+    { "dataYTicks" : 2 }
 )
 ```
 
@@ -88,21 +88,16 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : 2 }
+                    { "dataYTicks" : 2 }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/data__y__ticks.html#example-a")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Change y range ticks to: ```2```</div>
 </body>
 ```
 ## Example B.
@@ -117,7 +112,7 @@ Change y range ticks to: ```20```
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : 20, "view__dom_id" : "b" }
+    { "dataYTicks" : 20, "view__dom_id" : "b" }
 )
 
       </script>
@@ -132,10 +127,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : 20 }``` | Object |
+| **Options** | ```{ "dataYTicks" : 20 }``` | Object |
 
 
 ### Source Code
@@ -147,7 +142,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : 20 }
+    { "dataYTicks" : 20 }
 )
 ```
 
@@ -164,20 +159,15 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : 20 }
+                    { "dataYTicks" : 20 }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/data__y__ticks.html#example-b")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Change y range ticks to: ```20```</div>
 </body>
 ```

@@ -37,7 +37,7 @@ Draw data with circles
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : true, "view__dom_id" : "a" }
+    { "showDataAsCircle" : true, "view__dom_id" : "a" }
 )
 
       </script>
@@ -52,10 +52,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : true }``` | Object |
+| **Options** | ```{ "showDataAsCircle" : true }``` | Object |
 
 
 ### Source Code
@@ -67,7 +67,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : true }
+    { "showDataAsCircle" : true }
 )
 ```
 
@@ -84,21 +84,16 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : true }
+                    { "showDataAsCircle" : true }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/show__data_as_circle.html#example-a")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Draw data with circles</div>
 </body>
 ```
 ## Example B.
@@ -113,7 +108,7 @@ Draw data with bars
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : false, "view__dom_id" : "b" }
+    { "showDataAsCircle" : false, "view__dom_id" : "b" }
 )
 
       </script>
@@ -128,10 +123,10 @@ This dataset shows the mobile google pagerank performance score for a certain we
 
 | | **Value** | **Type** |
 |------:|:------|:------|
-| **Source** | ["../data/1-json-durstexpress.json"](../data/1-json-durstexpress.json) | String |
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"domain"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "self" : false }``` | Object |
+| **Options** | ```{ "showDataAsCircle" : false }``` | Object |
 
 
 ### Source Code
@@ -143,7 +138,7 @@ d3.statosio(
     file, 
     "domain", 
     [ "mobile" ], 
-    { "self" : false }
+    { "showDataAsCircle" : false }
 )
 ```
 
@@ -160,20 +155,15 @@ d3.statosio(
 </head>
 <body>
     <script>
-        d3.json( "../data/1-json-durstexpress.json" )
+        d3.json( "../data/performance.json" )
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
                     "domain", 
                     [ "mobile" ], 
-                    { "self" : false }
+                    { "showDataAsCircle" : false }
                 )
-                h = document.createElement("a")
-                h.setAttribute("href", "../options/show__data_as_circle.html#example-b")
-                h.innerText = "BACK"
-                document.body.append(h)
             } )
     </script>
-    <div style="display:none;">Draw data with bars</div>
 </body>
 ```
