@@ -1,0 +1,15 @@
+title: d3.statosio()
+lang: en
+description: Extension for d3 to produce results faster.
+
+plugins:
+    - jekyll-default-layout
+    - jekyll-readme-index
+    - jekyll-github-metadata
+    - jekyll-titles-from-headings
+    - jemoji
+    - jekyll-avatar
+    - jekyll-mentions
+    
+readme_index:
+    with_frontmatter: true
