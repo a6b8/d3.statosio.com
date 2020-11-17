@@ -35,7 +35,7 @@ Set default font color to: ```red```
       <script> 
           d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile" ], 
     { "styleColorFont" : "red", "view__dom_id" : "a" }
 )
@@ -53,7 +53,7 @@ This dataset shows the mobile google pagerank performance score for a certain we
 | | **Value** | **Type** |
 |------:|:------|:------|
 | **Source** | ["../data/performance.json"](../data/performance.json) | String |
-| **X** | ```"domain"``` | String |
+| **X** | ```"name"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
 | **Options** | ```{ "styleColorFont" : "red" }``` | Object |
 
@@ -65,7 +65,7 @@ This dataset shows the mobile google pagerank performance score for a certain we
 ```javascript
 d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile" ], 
     { "styleColorFont" : "red" }
 )
@@ -88,7 +88,7 @@ d3.statosio(
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
-                    "domain", 
+                    "name", 
                     [ "mobile" ], 
                     { "styleColorFont" : "red" }
                 )
@@ -106,7 +106,7 @@ Set default font color to: ```#f66504```
       <script> 
           d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile" ], 
     { "styleColorFont" : "#f66504", "view__dom_id" : "b" }
 )
@@ -124,7 +124,7 @@ This dataset shows the mobile google pagerank performance score for a certain we
 | | **Value** | **Type** |
 |------:|:------|:------|
 | **Source** | ["../data/performance.json"](../data/performance.json) | String |
-| **X** | ```"domain"``` | String |
+| **X** | ```"name"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
 | **Options** | ```{ "styleColorFont" : "#f66504" }``` | Object |
 
@@ -136,7 +136,7 @@ This dataset shows the mobile google pagerank performance score for a certain we
 ```javascript
 d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile" ], 
     { "styleColorFont" : "#f66504" }
 )
@@ -159,7 +159,7 @@ d3.statosio(
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
-                    "domain", 
+                    "name", 
                     [ "mobile" ], 
                     { "styleColorFont" : "#f66504" }
                 )

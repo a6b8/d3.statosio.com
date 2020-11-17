@@ -1,4 +1,4 @@
-def readme_prepare( sort, readmes )
+def readme_prepare( sort, readmes, blocks )
     result = {
       file: nil,
       categories: {}
@@ -37,7 +37,8 @@ def readme_prepare( sort, readmes )
         items.push( item )
     end
 
-    [ :show, :data, :view, :style ].each do | category |
+    keys = blocks[:categories].keys.map { | d | d.to_sym }
+    keys.each do | category |
         !result[:categories].key?( category ) ? result[:categories][ category ] = [] : ''
         result[:categories][ category ] = items.select { | item | item[:category] == category.to_s }
     end
@@ -45,8 +46,8 @@ def readme_prepare( sort, readmes )
 end
 
 
-def readme_create( sort, readmes )
-    struct = readme_prepare( sort, readmes )
+def readme_create( sort, readmes, blocks )
+    struct = readme_prepare( sort, readmes, blocks )
     str = ''
     str << "---\n"
     str << 'sort: '
@@ -55,13 +56,19 @@ def readme_create( sort, readmes )
     str << "title: Options\n"
     str << "---\n"
     str << "\n"
+    str << "# Options\n"
+    str << "## Categories\n"
   
-    struct[:categories].keys.each do | category |
-        str << '## '
+    alphabet = ( 'A'..'Z' ).to_a
+    struct[:categories].keys.each.with_index do | category, index |
+        str << '### '
+        str << alphabet[ index ] + '. '
         str << helper_titleize( category.to_s )
+        str << ' {#' + category.to_s  + '}' + "\n"
+        str << blocks[:categories][ category ][:description]
         str << "\n\n"
-        str << '|   | **Option** | **Default** | **Examples** | **Description** |'
-        str << "\n"
+        str << "|   | **Option** | **Default** | **Examples** | **Description** |\n"
+        str << "|:--|:--|:--|:--|:--|\n"
         struct[:categories][ category ].each do | row |
             str << '| '
             str << row[:numbering]
@@ -69,7 +76,7 @@ def readme_create( sort, readmes )
             str << '['
             str << row[:option]
             str << ']('
-            str << row[:flatten]
+            str << '../options/' + row[:flatten]
             str << '.md'
             str << ')'
             str << ' | '
@@ -79,7 +86,7 @@ def readme_create( sort, readmes )
             row[:examples].each.with_index do | example, i |
                 str << '['
                 str << example[:name]
-                str << '](../options/'
+                str << ']('
                 str << example[:file]
                 str << ')'
                 if row[:examples].length - 1 != i

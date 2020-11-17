@@ -17,7 +17,7 @@ title: 4 Diagrams
 
 <div id="example-1">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"showTitle":true,"viewDomId":"example-1"})
+		d3.statosio(file,"name",["mobile"],{"showTitle":true,"viewDomId":"example-1"})
 	</script>
 </div>
 [More Details](../options/show__title.html#example-a) | Show title
@@ -26,7 +26,7 @@ title: 4 Diagrams
 
 <div id="example-2">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"showTitle":false,"viewDomId":"example-2"})
+		d3.statosio(file,"name",["mobile"],{"showTitle":false,"viewDomId":"example-2"})
 	</script>
 </div>
 [More Details](../options/show__title.html#example-b) | Hide title
@@ -35,7 +35,7 @@ title: 4 Diagrams
 
 <div id="example-3">
 	<script>
-		d3.statosio(file,"domain",["mobile","desktop"],{"showLegend":true,"viewDomId":"example-3"})
+		d3.statosio(file,"name",["mobile","desktop"],{"showLegend":true,"viewDomId":"example-3"})
 	</script>
 </div>
 [More Details](../options/show__legend.html#example-a) | Show legend
@@ -44,7 +44,7 @@ title: 4 Diagrams
 
 <div id="example-4">
 	<script>
-		d3.statosio(file,"domain",["mobile","desktop"],{"showLegend":false,"viewDomId":"example-4"})
+		d3.statosio(file,"name",["mobile","desktop"],{"showLegend":false,"viewDomId":"example-4"})
 	</script>
 </div>
 [More Details](../options/show__legend.html#example-b) | Hide legend

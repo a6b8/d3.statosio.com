@@ -39,9 +39,9 @@ Set selection to: ```start```
       <script> 
           d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile" ], 
-    { "dataSortSelection" : "start", "view__dom_id" : "a" }
+    { "dataSortSelection" : "start", "dataXSelectors" : ["orange"], "view__dom_id" : "a" }
 )
 
       </script>
@@ -57,9 +57,9 @@ This dataset shows the mobile google pagerank performance score for a certain we
 | | **Value** | **Type** |
 |------:|:------|:------|
 | **Source** | ["../data/performance.json"](../data/performance.json) | String |
-| **X** | ```"domain"``` | String |
+| **X** | ```"name"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "dataSortSelection" : "start" }``` | Object |
+| **Options** | ```{ "dataSortSelection" : "start", "dataXSelectors" : ["orange"] }``` | Object |
 
 
 ### Source Code
@@ -69,9 +69,9 @@ This dataset shows the mobile google pagerank performance score for a certain we
 ```javascript
 d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile" ], 
-    { "dataSortSelection" : "start" }
+    { "dataSortSelection" : "start", "dataXSelectors" : ["orange"] }
 )
 ```
 
@@ -92,9 +92,9 @@ d3.statosio(
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
-                    "domain", 
+                    "name", 
                     [ "mobile" ], 
-                    { "dataSortSelection" : "start" }
+                    { "dataSortSelection" : "start", "dataXSelectors" : ["orange"] }
                 )
             } )
     </script>
@@ -110,9 +110,9 @@ Set selection to: ```end```
       <script> 
           d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile" ], 
-    { "dataSortSelection" : "end", "view__dom_id" : "b" }
+    { "dataSortSelection" : "end", "dataXSelectors" : ["orange"], "view__dom_id" : "b" }
 )
 
       </script>
@@ -128,9 +128,9 @@ This dataset shows the mobile google pagerank performance score for a certain we
 | | **Value** | **Type** |
 |------:|:------|:------|
 | **Source** | ["../data/performance.json"](../data/performance.json) | String |
-| **X** | ```"domain"``` | String |
+| **X** | ```"name"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "dataSortSelection" : "end" }``` | Object |
+| **Options** | ```{ "dataSortSelection" : "end", "dataXSelectors" : ["orange"] }``` | Object |
 
 
 ### Source Code
@@ -140,9 +140,9 @@ This dataset shows the mobile google pagerank performance score for a certain we
 ```javascript
 d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile" ], 
-    { "dataSortSelection" : "end" }
+    { "dataSortSelection" : "end", "dataXSelectors" : ["orange"] }
 )
 ```
 
@@ -163,9 +163,9 @@ d3.statosio(
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
-                    "domain", 
+                    "name", 
                     [ "mobile" ], 
-                    { "dataSortSelection" : "end" }
+                    { "dataSortSelection" : "end", "dataXSelectors" : ["orange"] }
                 )
             } )
     </script>

@@ -19,7 +19,7 @@ An add-on function for [d3](https://d3js.org){:target="_blank"} to generate simp
     <script> 
         d3.statosio( 
             file, 
-            "domain", 
+            "name", 
             [ "mobile" ], 
             { "showTitle" : false, "viewDomId" : "bar" }
         )
@@ -34,7 +34,7 @@ An add-on function for [d3](https://d3js.org){:target="_blank"} to generate simp
     <script> 
         d3.statosio( 
             file, 
-            "domain", 
+            "name", 
             [ "mobile" ], 
             { "showTitle" : false, "showDataAsCircle": true, "viewDomId" : "point" }
         )
@@ -49,7 +49,7 @@ An add-on function for [d3](https://d3js.org){:target="_blank"} to generate simp
     <script> 
         d3.statosio( 
             file, 
-            "domain", 
+            "name", 
             [ "mobile", "desktop" ], 
             { "showLegend": true, "viewDomId" : "stacked" }
         )

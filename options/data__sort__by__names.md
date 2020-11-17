@@ -35,7 +35,7 @@ Set sequence to: ```ascending```
       <script> 
           d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile",  "desktop" ], 
     { "dataSortCurrent" : "names", "dataSortByNames" : "ascending", "view__dom_id" : "a" }
 )
@@ -53,7 +53,7 @@ This dataset shows the mobile **and** desktop google pagerank performance score 
 | | **Value** | **Type** |
 |------:|:------|:------|
 | **Source** | ["../data/performance.json"](../data/performance.json) | String |
-| **X** | ```"domain"``` | String |
+| **X** | ```"name"``` | String |
 | **Y** | ```[ "mobile",  "desktop" ]``` | Array |
 | **Options** | ```{ "dataSortCurrent" : "names", "dataSortByNames" : "ascending" }``` | Object |
 
@@ -65,7 +65,7 @@ This dataset shows the mobile **and** desktop google pagerank performance score 
 ```javascript
 d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile",  "desktop" ], 
     { "dataSortCurrent" : "names", "dataSortByNames" : "ascending" }
 )
@@ -88,7 +88,7 @@ d3.statosio(
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
-                    "domain", 
+                    "name", 
                     [ "mobile",  "desktop" ], 
                     { "dataSortCurrent" : "names", "dataSortByNames" : "ascending" }
                 )
@@ -106,7 +106,7 @@ Set sequence to: ```decending```
       <script> 
           d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile",  "desktop" ], 
     { "dataSortCurrent" : "names", "dataSortByNames" : "decending", "view__dom_id" : "b" }
 )
@@ -124,7 +124,7 @@ This dataset shows the mobile **and** desktop google pagerank performance score 
 | | **Value** | **Type** |
 |------:|:------|:------|
 | **Source** | ["../data/performance.json"](../data/performance.json) | String |
-| **X** | ```"domain"``` | String |
+| **X** | ```"name"``` | String |
 | **Y** | ```[ "mobile",  "desktop" ]``` | Array |
 | **Options** | ```{ "dataSortCurrent" : "names", "dataSortByNames" : "decending" }``` | Object |
 
@@ -136,7 +136,7 @@ This dataset shows the mobile **and** desktop google pagerank performance score 
 ```javascript
 d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile",  "desktop" ], 
     { "dataSortCurrent" : "names", "dataSortByNames" : "decending" }
 )
@@ -159,7 +159,7 @@ d3.statosio(
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
-                    "domain", 
+                    "name", 
                     [ "mobile",  "desktop" ], 
                     { "dataSortCurrent" : "names", "dataSortByNames" : "decending" }
                 )

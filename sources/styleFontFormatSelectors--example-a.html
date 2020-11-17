@@ -12,9 +12,9 @@
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
-                    "domain", 
+                    "name", 
                     [ "mobile" ], 
-                    { "styleFontFormatSelectors" : ["normal", "bold"] }
+                    { "styleFontFormatSelectors" : ["normal", "bold"], "dataXSelectors" : ["orange"] }
                 )
                 h = document.createElement("a")
                 h.setAttribute("href", "../options/style__font__format__selectors.html#example-a")

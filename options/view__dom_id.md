@@ -35,7 +35,7 @@ Insert SVG into the DOM Element with the id: "```findMe```"
       <script> 
           d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile" ], 
     { "viewDomId" : "findMe", "view__dom_id" : "a" }
 )
@@ -53,7 +53,7 @@ This dataset shows the mobile google pagerank performance score for a certain we
 | | **Value** | **Type** |
 |------:|:------|:------|
 | **Source** | ["../data/performance.json"](../data/performance.json) | String |
-| **X** | ```"domain"``` | String |
+| **X** | ```"name"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
 | **Options** | ```{ "viewDomId" : "findMe" }``` | Object |
 
@@ -65,7 +65,7 @@ This dataset shows the mobile google pagerank performance score for a certain we
 ```javascript
 d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile" ], 
     { "viewDomId" : "findMe" }
 )
@@ -88,7 +88,7 @@ d3.statosio(
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
-                    "domain", 
+                    "name", 
                     [ "mobile" ], 
                     { "viewDomId" : "findMe" }
                 )

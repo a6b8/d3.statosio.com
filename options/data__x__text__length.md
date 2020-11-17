@@ -39,7 +39,7 @@ Set the maximum text label length for x range values to: ```5```
       <script> 
           d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile" ], 
     { "dataXTextLength" : 5, "view__dom_id" : "a" }
 )
@@ -57,7 +57,7 @@ This dataset shows the mobile google pagerank performance score for a certain we
 | | **Value** | **Type** |
 |------:|:------|:------|
 | **Source** | ["../data/performance.json"](../data/performance.json) | String |
-| **X** | ```"domain"``` | String |
+| **X** | ```"name"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
 | **Options** | ```{ "dataXTextLength" : 5 }``` | Object |
 
@@ -69,7 +69,7 @@ This dataset shows the mobile google pagerank performance score for a certain we
 ```javascript
 d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile" ], 
     { "dataXTextLength" : 5 }
 )
@@ -92,7 +92,7 @@ d3.statosio(
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
-                    "domain", 
+                    "name", 
                     [ "mobile" ], 
                     { "dataXTextLength" : 5 }
                 )
@@ -110,7 +110,7 @@ Set the maximum text label length for x range values to: ```18```
       <script> 
           d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile" ], 
     { "dataXTextLength" : 18, "view__dom_id" : "b" }
 )
@@ -128,7 +128,7 @@ This dataset shows the mobile google pagerank performance score for a certain we
 | | **Value** | **Type** |
 |------:|:------|:------|
 | **Source** | ["../data/performance.json"](../data/performance.json) | String |
-| **X** | ```"domain"``` | String |
+| **X** | ```"name"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
 | **Options** | ```{ "dataXTextLength" : 18 }``` | Object |
 
@@ -140,7 +140,7 @@ This dataset shows the mobile google pagerank performance score for a certain we
 ```javascript
 d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile" ], 
     { "dataXTextLength" : 18 }
 )
@@ -163,7 +163,7 @@ d3.statosio(
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
-                    "domain", 
+                    "name", 
                     [ "mobile" ], 
                     { "dataXTextLength" : 18 }
                 )

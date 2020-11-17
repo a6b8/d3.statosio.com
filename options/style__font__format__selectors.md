@@ -35,9 +35,9 @@ Set font format of selection x range text labels to: ```["normal", "bold"]```
       <script> 
           d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile" ], 
-    { "styleFontFormatSelectors" : ["normal", "bold"], "view__dom_id" : "a" }
+    { "styleFontFormatSelectors" : ["normal", "bold"], "dataXSelectors" : ["orange"], "view__dom_id" : "a" }
 )
 
       </script>
@@ -53,9 +53,9 @@ This dataset shows the mobile google pagerank performance score for a certain we
 | | **Value** | **Type** |
 |------:|:------|:------|
 | **Source** | ["../data/performance.json"](../data/performance.json) | String |
-| **X** | ```"domain"``` | String |
+| **X** | ```"name"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "styleFontFormatSelectors" : ["normal", "bold"] }``` | Object |
+| **Options** | ```{ "styleFontFormatSelectors" : ["normal", "bold"], "dataXSelectors" : ["orange"] }``` | Object |
 
 
 ### Source Code
@@ -65,9 +65,9 @@ This dataset shows the mobile google pagerank performance score for a certain we
 ```javascript
 d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile" ], 
-    { "styleFontFormatSelectors" : ["normal", "bold"] }
+    { "styleFontFormatSelectors" : ["normal", "bold"], "dataXSelectors" : ["orange"] }
 )
 ```
 
@@ -88,9 +88,9 @@ d3.statosio(
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
-                    "domain", 
+                    "name", 
                     [ "mobile" ], 
-                    { "styleFontFormatSelectors" : ["normal", "bold"] }
+                    { "styleFontFormatSelectors" : ["normal", "bold"], "dataXSelectors" : ["orange"] }
                 )
             } )
     </script>
@@ -106,9 +106,9 @@ Set font format of selection x range text labels to: ```["bold", "normal"]```
       <script> 
           d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile" ], 
-    { "styleFontFormatSelectors" : ["bold", "normal"], "view__dom_id" : "b" }
+    { "styleFontFormatSelectors" : ["bold", "normal"], "dataXSelectors" : ["orange"], "view__dom_id" : "b" }
 )
 
       </script>
@@ -124,9 +124,9 @@ This dataset shows the mobile google pagerank performance score for a certain we
 | | **Value** | **Type** |
 |------:|:------|:------|
 | **Source** | ["../data/performance.json"](../data/performance.json) | String |
-| **X** | ```"domain"``` | String |
+| **X** | ```"name"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "styleFontFormatSelectors" : ["bold", "normal"] }``` | Object |
+| **Options** | ```{ "styleFontFormatSelectors" : ["bold", "normal"], "dataXSelectors" : ["orange"] }``` | Object |
 
 
 ### Source Code
@@ -136,9 +136,9 @@ This dataset shows the mobile google pagerank performance score for a certain we
 ```javascript
 d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile" ], 
-    { "styleFontFormatSelectors" : ["bold", "normal"] }
+    { "styleFontFormatSelectors" : ["bold", "normal"], "dataXSelectors" : ["orange"] }
 )
 ```
 
@@ -159,9 +159,9 @@ d3.statosio(
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
-                    "domain", 
+                    "name", 
                     [ "mobile" ], 
-                    { "styleFontFormatSelectors" : ["bold", "normal"] }
+                    { "styleFontFormatSelectors" : ["bold", "normal"], "dataXSelectors" : ["orange"] }
                 )
             } )
     </script>

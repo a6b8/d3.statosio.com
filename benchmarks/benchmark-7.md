@@ -1,9 +1,9 @@
 ---
 sort: 7
-title: 72 Diagrams
+title: 73 Diagrams
 ---
 
-# 72 Diagrams
+# 73 Diagrams
 
 ## Result
 
@@ -17,7 +17,7 @@ title: 72 Diagrams
 
 <div id="example-1">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"showTitle":true,"viewDomId":"example-1"})
+		d3.statosio(file,"name",["mobile"],{"showTitle":true,"viewDomId":"example-1"})
 	</script>
 </div>
 [More Details](../options/show__title.html#example-a) | Show title
@@ -26,7 +26,7 @@ title: 72 Diagrams
 
 <div id="example-2">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"showTitle":false,"viewDomId":"example-2"})
+		d3.statosio(file,"name",["mobile"],{"showTitle":false,"viewDomId":"example-2"})
 	</script>
 </div>
 [More Details](../options/show__title.html#example-b) | Hide title
@@ -35,7 +35,7 @@ title: 72 Diagrams
 
 <div id="example-3">
 	<script>
-		d3.statosio(file,"domain",["mobile","desktop"],{"showLegend":true,"viewDomId":"example-3"})
+		d3.statosio(file,"name",["mobile","desktop"],{"showLegend":true,"viewDomId":"example-3"})
 	</script>
 </div>
 [More Details](../options/show__legend.html#example-a) | Show legend
@@ -44,7 +44,7 @@ title: 72 Diagrams
 
 <div id="example-4">
 	<script>
-		d3.statosio(file,"domain",["mobile","desktop"],{"showLegend":false,"viewDomId":"example-4"})
+		d3.statosio(file,"name",["mobile","desktop"],{"showLegend":false,"viewDomId":"example-4"})
 	</script>
 </div>
 [More Details](../options/show__legend.html#example-b) | Hide legend
@@ -53,7 +53,7 @@ title: 72 Diagrams
 
 <div id="example-5">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"showAverage":true,"viewDomId":"example-5"})
+		d3.statosio(file,"name",["mobile"],{"showAverage":true,"viewDomId":"example-5"})
 	</script>
 </div>
 [More Details](../options/show__average.html#example-a) | Show average Line
@@ -62,7 +62,7 @@ title: 72 Diagrams
 
 <div id="example-6">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"showAverage":false,"viewDomId":"example-6"})
+		d3.statosio(file,"name",["mobile"],{"showAverage":false,"viewDomId":"example-6"})
 	</script>
 </div>
 [More Details](../options/show__average.html#example-b) | Hide average Line
@@ -71,7 +71,7 @@ title: 72 Diagrams
 
 <div id="example-7">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"showRangeYLog":true,"viewDomId":"example-7"})
+		d3.statosio(file,"name",["mobile"],{"showRangeYLog":true,"viewDomId":"example-7"})
 	</script>
 </div>
 [More Details](../options/show__range_y_log.html#example-a) | Show Y Range in Log Scale
@@ -80,7 +80,7 @@ title: 72 Diagrams
 
 <div id="example-8">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"showRangeYLog":false,"viewDomId":"example-8"})
+		d3.statosio(file,"name",["mobile"],{"showRangeYLog":false,"viewDomId":"example-8"})
 	</script>
 </div>
 [More Details](../options/show__range_y_log.html#example-b) | Show Y Range in Linear Scale
@@ -89,7 +89,7 @@ title: 72 Diagrams
 
 <div id="example-9">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"showDataAsCircle":true,"viewDomId":"example-9"})
+		d3.statosio(file,"name",["mobile"],{"showDataAsCircle":true,"viewDomId":"example-9"})
 	</script>
 </div>
 [More Details](../options/show__data_as_circle.html#example-a) | Draw data with circles
@@ -98,7 +98,7 @@ title: 72 Diagrams
 
 <div id="example-10">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"showDataAsCircle":false,"viewDomId":"example-10"})
+		d3.statosio(file,"name",["mobile"],{"showDataAsCircle":false,"viewDomId":"example-10"})
 	</script>
 </div>
 [More Details](../options/show__data_as_circle.html#example-b) | Draw data with bars
@@ -107,7 +107,7 @@ title: 72 Diagrams
 
 <div id="example-11">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"viewTitle":"42","viewDomId":"example-11"})
+		d3.statosio(file,"name",["mobile"],{"viewTitle":"42","viewDomId":"example-11"})
 	</script>
 </div>
 [More Details](../options/view__title.html#example-a) | Change title to: "```42```"
@@ -116,7 +116,7 @@ title: 72 Diagrams
 
 <div id="example-12">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"viewDomId":"example-12"})
+		d3.statosio(file,"name",["mobile"],{"viewDomId":"example-12"})
 	</script>
 </div>
 [More Details](../options/view__dom_id.html#example-a) | Insert SVG into the DOM Element with the id: "```findMe```"
@@ -125,7 +125,7 @@ title: 72 Diagrams
 
 <div id="example-13">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"viewMarginTop":0,"viewDomId":"example-13"})
+		d3.statosio(file,"name",["mobile"],{"viewMarginTop":0,"viewDomId":"example-13"})
 	</script>
 </div>
 [More Details](../options/view__margin__top.html#example-a) | Set top margin to: ```0```
@@ -134,7 +134,7 @@ title: 72 Diagrams
 
 <div id="example-14">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"viewMarginTop":150,"viewDomId":"example-14"})
+		d3.statosio(file,"name",["mobile"],{"viewMarginTop":150,"viewDomId":"example-14"})
 	</script>
 </div>
 [More Details](../options/view__margin__top.html#example-b) | Set top margin to: ```150```
@@ -143,7 +143,7 @@ title: 72 Diagrams
 
 <div id="example-15">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"viewMarginRight":0,"viewDomId":"example-15"})
+		d3.statosio(file,"name",["mobile"],{"viewMarginRight":0,"viewDomId":"example-15"})
 	</script>
 </div>
 [More Details](../options/view__margin__right.html#example-a) | Set right margin to: ```0```
@@ -152,7 +152,7 @@ title: 72 Diagrams
 
 <div id="example-16">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"viewMarginRight":200,"viewDomId":"example-16"})
+		d3.statosio(file,"name",["mobile"],{"viewMarginRight":200,"viewDomId":"example-16"})
 	</script>
 </div>
 [More Details](../options/view__margin__right.html#example-b) | Set right margin to: ```200```
@@ -161,7 +161,7 @@ title: 72 Diagrams
 
 <div id="example-17">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"viewMarginBottom":0,"viewDomId":"example-17"})
+		d3.statosio(file,"name",["mobile"],{"viewMarginBottom":0,"viewDomId":"example-17"})
 	</script>
 </div>
 [More Details](../options/view__margin__bottom.html#example-a) | Set bottom margin to: ```0```
@@ -170,7 +170,7 @@ title: 72 Diagrams
 
 <div id="example-18">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"viewMarginBottom":200,"viewDomId":"example-18"})
+		d3.statosio(file,"name",["mobile"],{"viewMarginBottom":200,"viewDomId":"example-18"})
 	</script>
 </div>
 [More Details](../options/view__margin__bottom.html#example-b) | Set bottom margin to: ```200```
@@ -179,7 +179,7 @@ title: 72 Diagrams
 
 <div id="example-19">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"viewMarginLeft":0,"viewDomId":"example-19"})
+		d3.statosio(file,"name",["mobile"],{"viewMarginLeft":0,"viewDomId":"example-19"})
 	</script>
 </div>
 [More Details](../options/view__margin__left.html#example-a) | Set left margin to: ```0```
@@ -188,7 +188,7 @@ title: 72 Diagrams
 
 <div id="example-20">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"viewMarginLeft":200,"viewDomId":"example-20"})
+		d3.statosio(file,"name",["mobile"],{"viewMarginLeft":200,"viewDomId":"example-20"})
 	</script>
 </div>
 [More Details](../options/view__margin__left.html#example-b) | Set left margin to: ```200```
@@ -197,7 +197,7 @@ title: 72 Diagrams
 
 <div id="example-21">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"viewWidthOuter":200,"viewDomId":"example-21"})
+		d3.statosio(file,"name",["mobile"],{"viewWidthOuter":200,"viewDomId":"example-21"})
 	</script>
 </div>
 [More Details](../options/view__width__outer.html#example-a) | Set total width to: ```200```
@@ -206,7 +206,7 @@ title: 72 Diagrams
 
 <div id="example-22">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"viewWidthOuter":800,"viewDomId":"example-22"})
+		d3.statosio(file,"name",["mobile"],{"viewWidthOuter":800,"viewDomId":"example-22"})
 	</script>
 </div>
 [More Details](../options/view__width__outer.html#example-b) | Set total width to: ```800```
@@ -215,7 +215,7 @@ title: 72 Diagrams
 
 <div id="example-23">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"viewHeightOuter":100,"viewDomId":"example-23"})
+		d3.statosio(file,"name",["mobile"],{"viewHeightOuter":100,"viewDomId":"example-23"})
 	</script>
 </div>
 [More Details](../options/view__height__outer.html#example-a) | Set total height to: ```100```
@@ -224,7 +224,7 @@ title: 72 Diagrams
 
 <div id="example-24">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"viewHeightOuter":600,"viewDomId":"example-24"})
+		d3.statosio(file,"name",["mobile"],{"viewHeightOuter":600,"viewDomId":"example-24"})
 	</script>
 </div>
 [More Details](../options/view__height__outer.html#example-b) | Set total height to: ```600```
@@ -233,7 +233,7 @@ title: 72 Diagrams
 
 <div id="example-25">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"viewTranslateMultiplicator":0.42,"viewDomId":"example-25"})
+		d3.statosio(file,"name",["mobile"],{"viewTranslateMultiplicator":0.42,"viewDomId":"example-25"})
 	</script>
 </div>
 [More Details](../options/view__translate__multiplicator.html#example-a) | Change distance between title, legend and diagram to: ```0.42```
@@ -242,421 +242,430 @@ title: 72 Diagrams
 
 <div id="example-26">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"viewTranslateMultiplicator":2.42,"viewDomId":"example-26"})
+		d3.statosio(file,"name",["mobile"],{"viewTranslateMultiplicator":2.42,"viewDomId":"example-26"})
 	</script>
 </div>
 [More Details](../options/view__translate__multiplicator.html#example-b) | Change distance between title, legend and diagram to: ```2.42```
 
-### 27. dataXTextLength (A)
+### 27. dataXSelectors (A)
 
 <div id="example-27">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"dataXTextLength":5,"viewDomId":"example-27"})
+		d3.statosio(file,"name",["mobile"],{"dataXSelectors":["orange"],"viewDomId":"example-27"})
+	</script>
+</div>
+[More Details](../options/data__x__selectors.html#example-a) | POST
+
+### 28. dataXTextLength (A)
+
+<div id="example-28">
+	<script>
+		d3.statosio(file,"name",["mobile"],{"dataXTextLength":5,"viewDomId":"example-28"})
 	</script>
 </div>
 [More Details](../options/data__x__text__length.html#example-a) | Set the maximum text label length for x range values to: ```5```
 
-### 28. dataXTextLength (B)
+### 29. dataXTextLength (B)
 
-<div id="example-28">
+<div id="example-29">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"dataXTextLength":18,"viewDomId":"example-28"})
+		d3.statosio(file,"name",["mobile"],{"dataXTextLength":18,"viewDomId":"example-29"})
 	</script>
 </div>
 [More Details](../options/data__x__text__length.html#example-b) | Set the maximum text label length for x range values to: ```18```
 
-### 29. dataXTextPlaceholder (A)
+### 30. dataXTextPlaceholder (A)
 
-<div id="example-29">
+<div id="example-30">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"dataXTextPlaceholder":"-----","dataXTextLength":10,"viewDomId":"example-29"})
+		d3.statosio(file,"name",["mobile"],{"dataXTextPlaceholder":"-----","dataXTextLength":10,"viewDomId":"example-30"})
 	</script>
 </div>
 [More Details](../options/data__x__text__placeholder.html#example-a) | Change suffix for cut of x range text labels to: ```-----```
 
-### 30. dataXTextPlaceholder (B)
+### 31. dataXTextPlaceholder (B)
 
-<div id="example-30">
+<div id="example-31">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"dataXTextPlaceholder":"","dataXTextLength":10,"viewDomId":"example-30"})
+		d3.statosio(file,"name",["mobile"],{"dataXTextPlaceholder":"","dataXTextLength":10,"viewDomId":"example-31"})
 	</script>
 </div>
 [More Details](../options/data__x__text__placeholder.html#example-b) | Change suffix for cut of x range text labels to: ``````
 
-### 31. dataYTicks (A)
+### 32. dataYTicks (A)
 
-<div id="example-31">
+<div id="example-32">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"dataYTicks":2,"viewDomId":"example-31"})
+		d3.statosio(file,"name",["mobile"],{"dataYTicks":2,"viewDomId":"example-32"})
 	</script>
 </div>
 [More Details](../options/data__y__ticks.html#example-a) | Change y range ticks to: ```2```
 
-### 32. dataYTicks (B)
+### 33. dataYTicks (B)
 
-<div id="example-32">
+<div id="example-33">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"dataYTicks":20,"viewDomId":"example-32"})
+		d3.statosio(file,"name",["mobile"],{"dataYTicks":20,"viewDomId":"example-33"})
 	</script>
 </div>
 [More Details](../options/data__y__ticks.html#example-b) | Change y range ticks to: ```20```
 
-### 33. dataSortCurrent (A)
+### 34. dataSortCurrent (A)
 
-<div id="example-33">
+<div id="example-34">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"dataSortCurrent":"values","viewDomId":"example-33"})
+		d3.statosio(file,"name",["mobile"],{"dataSortCurrent":"values","viewDomId":"example-34"})
 	</script>
 </div>
 [More Details](../options/data__sort__current.html#example-a) | Set sort to: ```values```
 
-### 34. dataSortCurrent (B)
+### 35. dataSortCurrent (B)
 
-<div id="example-34">
+<div id="example-35">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"dataSortCurrent":"names","viewDomId":"example-34"})
+		d3.statosio(file,"name",["mobile"],{"dataSortCurrent":"names","viewDomId":"example-35"})
 	</script>
 </div>
 [More Details](../options/data__sort__current.html#example-b) | Set sort to: ```names```
 
-### 35. dataSortByValues (A)
+### 36. dataSortByValues (A)
 
-<div id="example-35">
+<div id="example-36">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"dataSortCurrent":"values","dataSortByValues":"ascending","viewDomId":"example-35"})
+		d3.statosio(file,"name",["mobile"],{"dataSortCurrent":"values","dataSortByValues":"ascending","viewDomId":"example-36"})
 	</script>
 </div>
 [More Details](../options/data__sort__by__values.html#example-a) | Set sequence to: ```ascending```
 
-### 36. dataSortByValues (B)
+### 37. dataSortByValues (B)
 
-<div id="example-36">
+<div id="example-37">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"dataSortCurrent":"values","dataSortByValues":"decending","viewDomId":"example-36"})
+		d3.statosio(file,"name",["mobile"],{"dataSortCurrent":"values","dataSortByValues":"decending","viewDomId":"example-37"})
 	</script>
 </div>
 [More Details](../options/data__sort__by__values.html#example-b) | Set sequence to: ```decending```
 
-### 37. dataSortByNames (A)
+### 38. dataSortByNames (A)
 
-<div id="example-37">
+<div id="example-38">
 	<script>
-		d3.statosio(file,"domain",["mobile","desktop"],{"dataSortCurrent":"names","dataSortByNames":"ascending","viewDomId":"example-37"})
+		d3.statosio(file,"name",["mobile","desktop"],{"dataSortCurrent":"names","dataSortByNames":"ascending","viewDomId":"example-38"})
 	</script>
 </div>
 [More Details](../options/data__sort__by__names.html#example-a) | Set sequence to: ```ascending```
 
-### 38. dataSortByNames (B)
+### 39. dataSortByNames (B)
 
-<div id="example-38">
+<div id="example-39">
 	<script>
-		d3.statosio(file,"domain",["mobile","desktop"],{"dataSortCurrent":"names","dataSortByNames":"decending","viewDomId":"example-38"})
+		d3.statosio(file,"name",["mobile","desktop"],{"dataSortCurrent":"names","dataSortByNames":"decending","viewDomId":"example-39"})
 	</script>
 </div>
 [More Details](../options/data__sort__by__names.html#example-b) | Set sequence to: ```decending```
 
-### 39. dataSortSelection (A)
+### 40. dataSortSelection (A)
 
-<div id="example-39">
+<div id="example-40">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"dataSortSelection":"start","viewDomId":"example-39"})
+		d3.statosio(file,"name",["mobile"],{"dataSortSelection":"start","dataXSelectors":["orange"],"viewDomId":"example-40"})
 	</script>
 </div>
 [More Details](../options/data__sort__selection.html#example-a) | Set selection to: ```start```
 
-### 40. dataSortSelection (B)
+### 41. dataSortSelection (B)
 
-<div id="example-40">
+<div id="example-41">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"dataSortSelection":"end","viewDomId":"example-40"})
+		d3.statosio(file,"name",["mobile"],{"dataSortSelection":"end","dataXSelectors":["orange"],"viewDomId":"example-41"})
 	</script>
 </div>
 [More Details](../options/data__sort__selection.html#example-b) | Set selection to: ```end```
 
-### 41. dataLegendTextSeparater (A)
+### 42. dataLegendTextSeparater (A)
 
-<div id="example-41">
+<div id="example-42">
 	<script>
-		d3.statosio(file,"domain",["mobile","desktop"],{"showLegend":true,"dataLegendTextSeparater":"_","viewDomId":"example-41"})
+		d3.statosio(file,"name",["mobile","desktop"],{"showLegend":true,"dataLegendTextSeparater":"_","viewDomId":"example-42"})
 	</script>
 </div>
 [More Details](../options/data__legend__text__separater.html#example-a) | Replace character "```_```" to " " in the legend text label
 
-### 42. styleColorAverage (A)
+### 43. styleColorAverage (A)
 
-<div id="example-42">
+<div id="example-43">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"styleColorAverage":"purple","viewDomId":"example-42"})
+		d3.statosio(file,"name",["mobile"],{"styleColorAverage":"purple","viewDomId":"example-43"})
 	</script>
 </div>
 [More Details](../options/style__color__average.html#example-a) | Set average color line to: ```purple```
 
-### 43. styleColorAverage (B)
+### 44. styleColorAverage (B)
 
-<div id="example-43">
+<div id="example-44">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"styleColorAverage":"#c1033c","viewDomId":"example-43"})
+		d3.statosio(file,"name",["mobile"],{"styleColorAverage":"#c1033c","viewDomId":"example-44"})
 	</script>
 </div>
 [More Details](../options/style__color__average.html#example-b) | Set average color line to: ```#c1033c```
 
-### 44. styleColorCanvasBackground (A)
+### 45. styleColorCanvasBackground (A)
 
-<div id="example-44">
+<div id="example-45">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"styleColorCanvasBackground":"lightgray","viewDomId":"example-44"})
+		d3.statosio(file,"name",["mobile"],{"styleColorCanvasBackground":"lightgray","viewDomId":"example-45"})
 	</script>
 </div>
 [More Details](../options/style__color__canvas_background.html#example-a) | Set background color to: ```lightgray```
 
-### 45. styleColorCanvasBackground (B)
+### 46. styleColorCanvasBackground (B)
 
-<div id="example-45">
+<div id="example-46">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"styleColorCanvasBackground":"#fed8b1","viewDomId":"example-45"})
+		d3.statosio(file,"name",["mobile"],{"styleColorCanvasBackground":"#fed8b1","viewDomId":"example-46"})
 	</script>
 </div>
 [More Details](../options/style__color__canvas_background.html#example-b) | Set background color to: ```#fed8b1```
 
-### 46. styleColorFont (A)
+### 47. styleColorFont (A)
 
-<div id="example-46">
+<div id="example-47">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"styleColorFont":"red","viewDomId":"example-46"})
+		d3.statosio(file,"name",["mobile"],{"styleColorFont":"red","viewDomId":"example-47"})
 	</script>
 </div>
 [More Details](../options/style__color__font.html#example-a) | Set default font color to: ```red```
 
-### 47. styleColorFont (B)
+### 48. styleColorFont (B)
 
-<div id="example-47">
+<div id="example-48">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"styleColorFont":"#f66504","viewDomId":"example-47"})
+		d3.statosio(file,"name",["mobile"],{"styleColorFont":"#f66504","viewDomId":"example-48"})
 	</script>
 </div>
 [More Details](../options/style__color__font.html#example-b) | Set default font color to: ```#f66504```
 
-### 48. styleColorLegends (A)
+### 49. styleColorLegends (A)
 
-<div id="example-48">
+<div id="example-49">
 	<script>
-		d3.statosio(file,"domain",["mobile","desktop"],{"styleColorLegends":["yellow","red","green"],"viewDomId":"example-48"})
+		d3.statosio(file,"name",["mobile","desktop"],{"styleColorLegends":["yellow","red","green"],"viewDomId":"example-49"})
 	</script>
 </div>
 [More Details](../options/style__color__legends.html#example-a) | Set color legend palette to: ```["yellow", "red", "green"]```
 
-### 49. styleColorLegends (B)
+### 50. styleColorLegends (B)
 
-<div id="example-49">
+<div id="example-50">
 	<script>
-		d3.statosio(file,"domain",["mobile","desktop"],{"styleColorLegends":["#f59351","#c9504a","#12514c","#2f7872","#a6b797"],"viewDomId":"example-49"})
+		d3.statosio(file,"name",["mobile","desktop"],{"styleColorLegends":["#f59351","#c9504a","#12514c","#2f7872","#a6b797"],"viewDomId":"example-50"})
 	</script>
 </div>
 [More Details](../options/style__color__legends.html#example-b) | 
 
-### 50. styleColorGridline (A)
+### 51. styleColorGridline (A)
 
-<div id="example-50">
+<div id="example-51">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"styleColorGridline":"yellow","viewDomId":"example-50"})
+		d3.statosio(file,"name",["mobile"],{"styleColorGridline":"yellow","viewDomId":"example-51"})
 	</script>
 </div>
 [More Details](../options/style__color__gridline.html#example-a) | Set gridline value to: ```yellow```
 
-### 51. styleColorGridline (B)
+### 52. styleColorGridline (B)
 
-<div id="example-51">
+<div id="example-52">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"styleColorGridline":"#f59351","viewDomId":"example-51"})
+		d3.statosio(file,"name",["mobile"],{"styleColorGridline":"#f59351","viewDomId":"example-52"})
 	</script>
 </div>
 [More Details](../options/style__color__gridline.html#example-b) | Set gridline value to: ```#f59351```
 
-### 52. styleColorSelectorsChart (A)
+### 53. styleColorSelectorsChart (A)
 
-<div id="example-52">
+<div id="example-53">
 	<script>
-		d3.statosio(file,"domain",["mobile","desktop"],{"styleColorSelectorsChart":["yellow","red","green"],"viewDomId":"example-52"})
+		d3.statosio(file,"name",["mobile","desktop"],{"styleColorSelectorsChart":["yellow","red","green"],"dataXSelectors":["orange"],"viewDomId":"example-53"})
 	</script>
 </div>
 [More Details](../options/style__color__selectors__chart.html#example-a) | Set palette to: ```["yellow", "red", "green"]```
 
-### 53. styleColorSelectorsChart (B)
+### 54. styleColorSelectorsChart (B)
 
-<div id="example-53">
+<div id="example-54">
 	<script>
-		d3.statosio(file,"domain",["mobile","desktop"],{"styleColorSelectorsChart":["#f59351","#c9504a","#12514c"],"viewDomId":"example-53"})
+		d3.statosio(file,"name",["mobile","desktop"],{"styleColorSelectorsChart":["#f59351","#c9504a","#12514c"],"dataXSelectors":["orange"],"viewDomId":"example-54"})
 	</script>
 </div>
 [More Details](../options/style__color__selectors__chart.html#example-b) | Set palette to: ```["#f59351", "#c9504a", "#12514c"]```
 
-### 54. styleColorSelectorsText (A)
-
-<div id="example-54">
-	<script>
-		d3.statosio(file,"domain",["mobile","desktop"],{"styleColorSelectorsText":["yellow","grey"],"viewDomId":"example-54"})
-	</script>
-</div>
-[More Details](../options/style__color__selectors__text.html#example-a) | Set font color of selection and others to: ```["yellow", "grey"]```
-
-### 55. styleColorSelectorsText (B)
+### 55. styleColorSelectorsText (A)
 
 <div id="example-55">
 	<script>
-		d3.statosio(file,"domain",["mobile","desktop"],{"styleColorSelectorsText":["#f59351","#a6b797"],"viewDomId":"example-55"})
+		d3.statosio(file,"name",["mobile","desktop"],{"styleColorSelectorsText":["grey","lightgrey"],"dataXSelectors":["orange"],"viewDomId":"example-55"})
+	</script>
+</div>
+[More Details](../options/style__color__selectors__text.html#example-a) | Set font color of selection and others to: ```["grey", "lightgrey"]```
+
+### 56. styleColorSelectorsText (B)
+
+<div id="example-56">
+	<script>
+		d3.statosio(file,"name",["mobile","desktop"],{"styleColorSelectorsText":["#f59351","#a6b797"],"dataXSelectors":["orange"],"viewDomId":"example-56"})
 	</script>
 </div>
 [More Details](../options/style__color__selectors__text.html#example-b) | Set font color of selection and others to: ```["#f59351", "#a6b797"]```
 
-### 56. styleFontSizeText (A)
+### 57. styleFontSizeText (A)
 
-<div id="example-56">
+<div id="example-57">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"styleFontSizeText":20,"viewDomId":"example-56"})
+		d3.statosio(file,"name",["mobile"],{"styleFontSizeText":20,"viewDomId":"example-57"})
 	</script>
 </div>
 [More Details](../options/style__font__size__text.html#example-a) | Set default font size to: ```20```
 
-### 57. styleFontSizeText (B)
+### 58. styleFontSizeText (B)
 
-<div id="example-57">
+<div id="example-58">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"styleFontSizeText":5,"viewDomId":"example-57"})
+		d3.statosio(file,"name",["mobile"],{"styleFontSizeText":5,"viewDomId":"example-58"})
 	</script>
 </div>
 [More Details](../options/style__font__size__text.html#example-b) | Set default font size to: ```5```
 
-### 58. styleFontSizeTitle (A)
+### 59. styleFontSizeTitle (A)
 
-<div id="example-58">
+<div id="example-59">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"styleFontSizeTitle":20,"viewDomId":"example-58"})
+		d3.statosio(file,"name",["mobile"],{"styleFontSizeTitle":20,"viewDomId":"example-59"})
 	</script>
 </div>
 [More Details](../options/style__font__size__title.html#example-a) | Set title font size to: ```20```
 
-### 59. styleFontSizeTitle (B)
+### 60. styleFontSizeTitle (B)
 
-<div id="example-59">
+<div id="example-60">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"styleFontSizeTitle":5,"viewDomId":"example-59"})
+		d3.statosio(file,"name",["mobile"],{"styleFontSizeTitle":5,"viewDomId":"example-60"})
 	</script>
 </div>
 [More Details](../options/style__font__size__title.html#example-b) | Set title font size to: ```5```
 
-### 60. styleFontFamily (A)
+### 61. styleFontFamily (A)
 
-<div id="example-60">
+<div id="example-61">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"styleFontFamily":"georgia","viewDomId":"example-60"})
+		d3.statosio(file,"name",["mobile"],{"styleFontFamily":"georgia","viewDomId":"example-61"})
 	</script>
 </div>
 [More Details](../options/style__font__family.html#example-a) | Set default font family to: ```georgia```
 
-### 61. styleFontFamily (B)
+### 62. styleFontFamily (B)
 
-<div id="example-61">
+<div id="example-62">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"styleFontFamily":"verdana","viewDomId":"example-61"})
+		d3.statosio(file,"name",["mobile"],{"styleFontFamily":"verdana","viewDomId":"example-62"})
 	</script>
 </div>
 [More Details](../options/style__font__family.html#example-b) | Set default font family to: ```verdana```
 
-### 62. styleFontFormatSelectors (A)
+### 63. styleFontFormatSelectors (A)
 
-<div id="example-62">
+<div id="example-63">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"styleFontFormatSelectors":["normal","bold"],"viewDomId":"example-62"})
+		d3.statosio(file,"name",["mobile"],{"styleFontFormatSelectors":["normal","bold"],"dataXSelectors":["orange"],"viewDomId":"example-63"})
 	</script>
 </div>
 [More Details](../options/style__font__format__selectors.html#example-a) | Set font format of selection x range text labels to: ```["normal", "bold"]```
 
-### 63. styleFontFormatSelectors (B)
+### 64. styleFontFormatSelectors (B)
 
-<div id="example-63">
+<div id="example-64">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"styleFontFormatSelectors":["bold","normal"],"viewDomId":"example-63"})
+		d3.statosio(file,"name",["mobile"],{"styleFontFormatSelectors":["bold","normal"],"dataXSelectors":["orange"],"viewDomId":"example-64"})
 	</script>
 </div>
 [More Details](../options/style__font__format__selectors.html#example-b) | Set font format of selection x range text labels to: ```["bold", "normal"]```
 
-### 64. styleStrokeAverage (A)
+### 65. styleStrokeAverage (A)
 
-<div id="example-64">
+<div id="example-65">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"styleStrokeAverage":1,"viewDomId":"example-64"})
+		d3.statosio(file,"name",["mobile"],{"styleStrokeAverage":1,"viewDomId":"example-65"})
 	</script>
 </div>
 [More Details](../options/style__stroke__average.html#example-a) | Set stroke weight of average line to: ```1```
 
-### 65. styleStrokeAverage (B)
+### 66. styleStrokeAverage (B)
 
-<div id="example-65">
+<div id="example-66">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"styleStrokeAverage":15,"viewDomId":"example-65"})
+		d3.statosio(file,"name",["mobile"],{"styleStrokeAverage":15,"viewDomId":"example-66"})
 	</script>
 </div>
 [More Details](../options/style__stroke__average.html#example-b) | Set stroke weight of average line to: ```15```
 
-### 66. styleStrokeGridline (A)
+### 67. styleStrokeGridline (A)
 
-<div id="example-66">
+<div id="example-67">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"styleStrokeGridline":2,"viewDomId":"example-66"})
+		d3.statosio(file,"name",["mobile"],{"styleStrokeGridline":2,"viewDomId":"example-67"})
 	</script>
 </div>
 [More Details](../options/style__stroke__gridline.html#example-a) | Set stroke weight of gridline to: ```2```
 
-### 67. styleStrokeGridline (B)
+### 68. styleStrokeGridline (B)
 
-<div id="example-67">
+<div id="example-68">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"styleStrokeGridline":14,"viewDomId":"example-67"})
+		d3.statosio(file,"name",["mobile"],{"styleStrokeGridline":14,"viewDomId":"example-68"})
 	</script>
 </div>
 [More Details](../options/style__stroke__gridline.html#example-b) | Set stroke weight of gridline to: ```14```
 
-### 68. styleLegendRectSizeFull (A)
+### 69. styleLegendRectSizeFull (A)
 
-<div id="example-68">
+<div id="example-69">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"styleLegendRectSizeFull":4,"viewDomId":"example-68"})
+		d3.statosio(file,"name",["mobile"],{"styleLegendRectSizeFull":4,"viewDomId":"example-69"})
 	</script>
 </div>
 [More Details](../options/style__legend__rect_size__full.html#example-a) | Set rect size of legend color separators to: ```4```
 
-### 69. styleLegendRectSizeFull (B)
+### 70. styleLegendRectSizeFull (B)
 
-<div id="example-69">
+<div id="example-70">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"styleLegendRectSizeFull":20,"viewDomId":"example-69"})
+		d3.statosio(file,"name",["mobile"],{"styleLegendRectSizeFull":20,"viewDomId":"example-70"})
 	</script>
 </div>
 [More Details](../options/style__legend__rect_size__full.html#example-b) | Set rect size of legend color separators to: ```20```
 
-### 70. styleOtherCircleChartRadius (A)
+### 71. styleOtherCircleChartRadius (A)
 
-<div id="example-70">
+<div id="example-71">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"showDataAsCircle":true,"styleOtherCircleChartRadius":4,"viewDomId":"example-70"})
+		d3.statosio(file,"name",["mobile"],{"showDataAsCircle":true,"styleOtherCircleChartRadius":4,"viewDomId":"example-71"})
 	</script>
 </div>
 [More Details](../options/style__other__circle_chart_radius.html#example-a) | Set circle radius to: ```4```
 
-### 71. styleOtherCircleChartRadius (B)
+### 72. styleOtherCircleChartRadius (B)
 
-<div id="example-71">
+<div id="example-72">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"showDataAsCircle":true,"styleOtherCircleChartRadius":14,"viewDomId":"example-71"})
+		d3.statosio(file,"name",["mobile"],{"showDataAsCircle":true,"styleOtherCircleChartRadius":14,"viewDomId":"example-72"})
 	</script>
 </div>
 [More Details](../options/style__other__circle_chart_radius.html#example-b) | Set circle radius to: ```14```
 
-### 72. styleOtherRangeXTextRotation (A)
+### 73. styleOtherRangeXTextRotation (A)
 
-<div id="example-72">
+<div id="example-73">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"styleOtherRangeXTextRotation":-90,"viewDomId":"example-72"})
+		d3.statosio(file,"name",["mobile"],{"styleOtherRangeXTextRotation":-90,"viewDomId":"example-73"})
 	</script>
 </div>
 [More Details](../options/style__other__range_x_text_rotation.html#example-a) | Set x range text label rotation to: ```-90```

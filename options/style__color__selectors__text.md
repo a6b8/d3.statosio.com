@@ -27,7 +27,7 @@ Allow hex values including short writing needs to with starting with #.
 
 ## Example A.
 
-Set font color of selection and others to: ```["yellow", "grey"]```
+Set font color of selection and others to: ```["grey", "lightgrey"]```
 
 ### Output
 
@@ -35,9 +35,9 @@ Set font color of selection and others to: ```["yellow", "grey"]```
       <script> 
           d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile",  "desktop" ], 
-    { "styleColorSelectorsText" : ["yellow", "grey"], "view__dom_id" : "a" }
+    { "styleColorSelectorsText" : ["grey", "lightgrey"], "dataXSelectors" : ["orange"], "view__dom_id" : "a" }
 )
 
       </script>
@@ -53,9 +53,9 @@ This dataset shows the mobile **and** desktop google pagerank performance score 
 | | **Value** | **Type** |
 |------:|:------|:------|
 | **Source** | ["../data/performance.json"](../data/performance.json) | String |
-| **X** | ```"domain"``` | String |
+| **X** | ```"name"``` | String |
 | **Y** | ```[ "mobile",  "desktop" ]``` | Array |
-| **Options** | ```{ "styleColorSelectorsText" : ["yellow", "grey"] }``` | Object |
+| **Options** | ```{ "styleColorSelectorsText" : ["grey", "lightgrey"], "dataXSelectors" : ["orange"] }``` | Object |
 
 
 ### Source Code
@@ -65,9 +65,9 @@ This dataset shows the mobile **and** desktop google pagerank performance score 
 ```javascript
 d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile",  "desktop" ], 
-    { "styleColorSelectorsText" : ["yellow", "grey"] }
+    { "styleColorSelectorsText" : ["grey", "lightgrey"], "dataXSelectors" : ["orange"] }
 )
 ```
 
@@ -88,9 +88,9 @@ d3.statosio(
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
-                    "domain", 
+                    "name", 
                     [ "mobile",  "desktop" ], 
-                    { "styleColorSelectorsText" : ["yellow", "grey"] }
+                    { "styleColorSelectorsText" : ["grey", "lightgrey"], "dataXSelectors" : ["orange"] }
                 )
             } )
     </script>
@@ -106,9 +106,9 @@ Set font color of selection and others to: ```["#f59351", "#a6b797"]```
       <script> 
           d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile",  "desktop" ], 
-    { "styleColorSelectorsText" : ["#f59351", "#a6b797"], "view__dom_id" : "b" }
+    { "styleColorSelectorsText" : ["#f59351", "#a6b797"], "dataXSelectors" : ["orange"], "view__dom_id" : "b" }
 )
 
       </script>
@@ -124,9 +124,9 @@ This dataset shows the mobile **and** desktop google pagerank performance score 
 | | **Value** | **Type** |
 |------:|:------|:------|
 | **Source** | ["../data/performance.json"](../data/performance.json) | String |
-| **X** | ```"domain"``` | String |
+| **X** | ```"name"``` | String |
 | **Y** | ```[ "mobile",  "desktop" ]``` | Array |
-| **Options** | ```{ "styleColorSelectorsText" : ["#f59351", "#a6b797"] }``` | Object |
+| **Options** | ```{ "styleColorSelectorsText" : ["#f59351", "#a6b797"], "dataXSelectors" : ["orange"] }``` | Object |
 
 
 ### Source Code
@@ -136,9 +136,9 @@ This dataset shows the mobile **and** desktop google pagerank performance score 
 ```javascript
 d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile",  "desktop" ], 
-    { "styleColorSelectorsText" : ["#f59351", "#a6b797"] }
+    { "styleColorSelectorsText" : ["#f59351", "#a6b797"], "dataXSelectors" : ["orange"] }
 )
 ```
 
@@ -159,9 +159,9 @@ d3.statosio(
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
-                    "domain", 
+                    "name", 
                     [ "mobile",  "desktop" ], 
-                    { "styleColorSelectorsText" : ["#f59351", "#a6b797"] }
+                    { "styleColorSelectorsText" : ["#f59351", "#a6b797"], "dataXSelectors" : ["orange"] }
                 )
             } )
     </script>

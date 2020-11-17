@@ -17,7 +17,7 @@ title: 2 Diagrams
 
 <div id="example-1">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"showTitle":true,"viewDomId":"example-1"})
+		d3.statosio(file,"name",["mobile"],{"showTitle":true,"viewDomId":"example-1"})
 	</script>
 </div>
 [More Details](../options/show__title.html#example-a) | Show title
@@ -26,7 +26,7 @@ title: 2 Diagrams
 
 <div id="example-2">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"showTitle":false,"viewDomId":"example-2"})
+		d3.statosio(file,"name",["mobile"],{"showTitle":false,"viewDomId":"example-2"})
 	</script>
 </div>
 [More Details](../options/show__title.html#example-b) | Hide title

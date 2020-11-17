@@ -39,7 +39,7 @@ Set color legend palette to: ```["yellow", "red", "green"]```
       <script> 
           d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile",  "desktop" ], 
     { "styleColorLegends" : ["yellow", "red", "green"], "view__dom_id" : "a" }
 )
@@ -57,7 +57,7 @@ This dataset shows the mobile **and** desktop google pagerank performance score 
 | | **Value** | **Type** |
 |------:|:------|:------|
 | **Source** | ["../data/performance.json"](../data/performance.json) | String |
-| **X** | ```"domain"``` | String |
+| **X** | ```"name"``` | String |
 | **Y** | ```[ "mobile",  "desktop" ]``` | Array |
 | **Options** | ```{ "styleColorLegends" : ["yellow", "red", "green"] }``` | Object |
 
@@ -69,7 +69,7 @@ This dataset shows the mobile **and** desktop google pagerank performance score 
 ```javascript
 d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile",  "desktop" ], 
     { "styleColorLegends" : ["yellow", "red", "green"] }
 )
@@ -92,7 +92,7 @@ d3.statosio(
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
-                    "domain", 
+                    "name", 
                     [ "mobile",  "desktop" ], 
                     { "styleColorLegends" : ["yellow", "red", "green"] }
                 )
@@ -110,7 +110,7 @@ d3.statosio(
       <script> 
           d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile",  "desktop" ], 
     { "styleColorLegends" : ["#f59351", "#c9504a", "#12514c", "#2f7872", "#a6b797"], "view__dom_id" : "b" }
 )
@@ -128,7 +128,7 @@ This dataset shows the mobile **and** desktop google pagerank performance score 
 | | **Value** | **Type** |
 |------:|:------|:------|
 | **Source** | ["../data/performance.json"](../data/performance.json) | String |
-| **X** | ```"domain"``` | String |
+| **X** | ```"name"``` | String |
 | **Y** | ```[ "mobile",  "desktop" ]``` | Array |
 | **Options** | ```{ "styleColorLegends" : ["#f59351", "#c9504a", "#12514c", "#2f7872", "#a6b797"] }``` | Object |
 
@@ -140,7 +140,7 @@ This dataset shows the mobile **and** desktop google pagerank performance score 
 ```javascript
 d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile",  "desktop" ], 
     { "styleColorLegends" : ["#f59351", "#c9504a", "#12514c", "#2f7872", "#a6b797"] }
 )
@@ -163,7 +163,7 @@ d3.statosio(
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
-                    "domain", 
+                    "name", 
                     [ "mobile",  "desktop" ], 
                     { "styleColorLegends" : ["#f59351", "#c9504a", "#12514c", "#2f7872", "#a6b797"] }
                 )

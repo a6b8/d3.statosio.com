@@ -12,9 +12,9 @@
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
-                    "domain", 
+                    "name", 
                     [ "mobile" ], 
-                    { "dataSortSelection" : "start" }
+                    { "dataSortSelection" : "start", "dataXSelectors" : ["orange"] }
                 )
                 h = document.createElement("a")
                 h.setAttribute("href", "../options/data__sort__selection.html#example-a")

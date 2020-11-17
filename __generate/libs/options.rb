@@ -78,6 +78,7 @@ def options_create( struct, blocks, script, root )
         sources = 'sources'
         # zip_create( blocks, id, item[:dataset_key], state, item[:file][:root], sources )
     end
-    readme_create( 2, readmes )
+
+    readme_create( 2, readmes, blocks )
     return diagramms
 end

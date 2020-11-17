@@ -1,9 +1,9 @@
 ---
 sort: 0 # follow a certain sequence of letters or numbers
-title: Client-side (Browser)
+title: Client-side (javascript)
 ---
 
-# Client-side (Browser)
+# Client-side (javascript)
 
 ## 3 Steps
 

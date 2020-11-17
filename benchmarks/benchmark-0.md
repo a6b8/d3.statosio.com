@@ -17,7 +17,7 @@ title: 1 Diagram
 
 <div id="example-1">
 	<script>
-		d3.statosio(file,"domain",["mobile"],{"showTitle":true,"viewDomId":"example-1"})
+		d3.statosio(file,"name",["mobile"],{"showTitle":true,"viewDomId":"example-1"})
 	</script>
 </div>
 [More Details](../options/show__title.html#example-a) | Show title

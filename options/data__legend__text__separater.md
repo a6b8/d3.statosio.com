@@ -35,7 +35,7 @@ Replace character "```_```" to " " in the legend text label
       <script> 
           d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile",  "desktop" ], 
     { "showLegend" : true, "dataLegendTextSeparater" : "_", "view__dom_id" : "a" }
 )
@@ -53,7 +53,7 @@ This dataset shows the mobile **and** desktop google pagerank performance score 
 | | **Value** | **Type** |
 |------:|:------|:------|
 | **Source** | ["../data/performance.json"](../data/performance.json) | String |
-| **X** | ```"domain"``` | String |
+| **X** | ```"name"``` | String |
 | **Y** | ```[ "mobile",  "desktop" ]``` | Array |
 | **Options** | ```{ "showLegend" : true, "dataLegendTextSeparater" : "_" }``` | Object |
 
@@ -65,7 +65,7 @@ This dataset shows the mobile **and** desktop google pagerank performance score 
 ```javascript
 d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile",  "desktop" ], 
     { "showLegend" : true, "dataLegendTextSeparater" : "_" }
 )
@@ -88,7 +88,7 @@ d3.statosio(
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
-                    "domain", 
+                    "name", 
                     [ "mobile",  "desktop" ], 
                     { "showLegend" : true, "dataLegendTextSeparater" : "_" }
                 )

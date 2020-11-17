@@ -39,7 +39,7 @@ Set circle radius to: ```4```
       <script> 
           d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile" ], 
     { "showDataAsCircle" : true, "styleOtherCircleChartRadius" : 4, "view__dom_id" : "a" }
 )
@@ -57,7 +57,7 @@ This dataset shows the mobile google pagerank performance score for a certain we
 | | **Value** | **Type** |
 |------:|:------|:------|
 | **Source** | ["../data/performance.json"](../data/performance.json) | String |
-| **X** | ```"domain"``` | String |
+| **X** | ```"name"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
 | **Options** | ```{ "showDataAsCircle" : true, "styleOtherCircleChartRadius" : 4 }``` | Object |
 
@@ -69,7 +69,7 @@ This dataset shows the mobile google pagerank performance score for a certain we
 ```javascript
 d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile" ], 
     { "showDataAsCircle" : true, "styleOtherCircleChartRadius" : 4 }
 )
@@ -92,7 +92,7 @@ d3.statosio(
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
-                    "domain", 
+                    "name", 
                     [ "mobile" ], 
                     { "showDataAsCircle" : true, "styleOtherCircleChartRadius" : 4 }
                 )
@@ -110,7 +110,7 @@ Set circle radius to: ```14```
       <script> 
           d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile" ], 
     { "showDataAsCircle" : true, "styleOtherCircleChartRadius" : 14, "view__dom_id" : "b" }
 )
@@ -128,7 +128,7 @@ This dataset shows the mobile google pagerank performance score for a certain we
 | | **Value** | **Type** |
 |------:|:------|:------|
 | **Source** | ["../data/performance.json"](../data/performance.json) | String |
-| **X** | ```"domain"``` | String |
+| **X** | ```"name"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
 | **Options** | ```{ "showDataAsCircle" : true, "styleOtherCircleChartRadius" : 14 }``` | Object |
 
@@ -140,7 +140,7 @@ This dataset shows the mobile google pagerank performance score for a certain we
 ```javascript
 d3.statosio( 
     file, 
-    "domain", 
+    "name", 
     [ "mobile" ], 
     { "showDataAsCircle" : true, "styleOtherCircleChartRadius" : 14 }
 )
@@ -163,7 +163,7 @@ d3.statosio(
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
-                    "domain", 
+                    "name", 
                     [ "mobile" ], 
                     { "showDataAsCircle" : true, "styleOtherCircleChartRadius" : 14 }
                 )

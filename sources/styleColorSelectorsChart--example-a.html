@@ -12,9 +12,9 @@
             .then( ( file ) => {
                 d3.statosio( 
                     file, 
-                    "domain", 
+                    "name", 
                     [ "mobile",  "desktop" ], 
-                    { "styleColorSelectorsChart" : ["yellow", "red", "green"] }
+                    { "styleColorSelectorsChart" : ["yellow", "red", "green"], "dataXSelectors" : ["orange"] }
                 )
                 h = document.createElement("a")
                 h.setAttribute("href", "../options/style__color__selectors__chart.html#example-a")
