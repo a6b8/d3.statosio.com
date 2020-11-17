@@ -1,43 +1,28 @@
 ---
-sort: 1 # follow a certain sequence of letters or numbers
+sort: 0 # follow a certain sequence of letters or numbers
+title: Client-side (Browser)
 ---
 
 # Client-side (Browser)
 
-```javascript
-d3.jumpstart( 
-    file, 
-    'x_key', 
-    [ y_keys, ... ], 
-    {} 
-) 
-```
+## 3 Steps
 
-
-# Example
+### Step 1: Load D3
 
 ```html
-<!DOCTYPE html>
-<head>
-    <meta content='text/html;charset=utf-8' http-equiv='Content-Type'>
-    <meta content='utf-8' http-equiv='encoding'>
-    	<script src='./libs/d3.js'></script>
-<script src='./libs/jumpstart.js'></script>
-</head>
-<body>
-    
-    <script>
-        d3.json( './data/1-json-durstexpress.json' )
-            .then( ( file ) => {
-                d3.jumpstart( 
-                    file, 
-                    'domain', 
-                    [ 'mobile', 'desktop' ], 
-                    {} 
-                ) 
-            } )
-
-    </script>
-</body>
+    <script src="../d3.js"></script>
 ```
+
+### Step 2: Load Statosio
+
+```html
+    <script src="../statosio.js"></script>
+```
+
+### Step 2: Invoke Function
+
+```javascript
+    d3.statosio( dataset, xRange, yRange, options = {} )
+```
+
 

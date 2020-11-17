@@ -287,3 +287,19 @@ div.content.px-2.py-3 {
     background-color: var(--stat-background-light);
 }
 
+
+// SEARCH RESULTS
+
+.text-gray {
+    color: var(--stat-text-normal) !important;
+}
+
+.bg-yellow {
+    background-color: var(--stat-background-light) !important;
+    color: var(--stat-text-normal) !important;
+}
+
+.border-top {
+    border-left: 2px solid  #1C1E26 !important;
+    border-top: var(--stat-border-small) !important;
+}

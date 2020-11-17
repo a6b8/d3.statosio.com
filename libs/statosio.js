@@ -1,3 +1,5 @@
+// https://statosio.com v0.1 Copyright 2020 Andreas Banholzer
+
 d3.statosio = ( file, x_key, y_keys, optional={} ) => {
     let default_values = {
         'show': {

@@ -1,6 +1,6 @@
-title: d3.statosio()
+title: d3.statosio
 lang: en
-description: Extension for d3 to produce results faster.
+description: Produce diagrams faster!
 
 plugins:
     - jekyll-default-layout
