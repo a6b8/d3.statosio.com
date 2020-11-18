@@ -37,7 +37,7 @@ Set font format of selection x range text labels to: ```["normal", "bold"]```
     file, 
     "name", 
     [ "mobile" ], 
-    { "styleFontFormatSelectors" : ["normal", "bold"], "dataXSelectors" : ["orange"], "view__dom_id" : "a" }
+    { "styleFontFormatSelectors" : ["normal", "bold"], "dataXSelectors" : ["Spock"], "view__dom_id" : "a" }
 )
 
       </script>
@@ -55,7 +55,7 @@ This dataset shows the mobile google pagerank performance score for a certain we
 | **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"name"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "styleFontFormatSelectors" : ["normal", "bold"], "dataXSelectors" : ["orange"] }``` | Object |
+| **Options** | ```{ "styleFontFormatSelectors" : ["normal", "bold"], "dataXSelectors" : ["Spock"] }``` | Object |
 
 
 ### Source Code
@@ -67,7 +67,7 @@ d3.statosio(
     file, 
     "name", 
     [ "mobile" ], 
-    { "styleFontFormatSelectors" : ["normal", "bold"], "dataXSelectors" : ["orange"] }
+    { "styleFontFormatSelectors" : ["normal", "bold"], "dataXSelectors" : ["Spock"] }
 )
 ```
 
@@ -90,7 +90,7 @@ d3.statosio(
                     file, 
                     "name", 
                     [ "mobile" ], 
-                    { "styleFontFormatSelectors" : ["normal", "bold"], "dataXSelectors" : ["orange"] }
+                    { "styleFontFormatSelectors" : ["normal", "bold"], "dataXSelectors" : ["Spock"] }
                 )
             } )
     </script>
@@ -108,7 +108,7 @@ Set font format of selection x range text labels to: ```["bold", "normal"]```
     file, 
     "name", 
     [ "mobile" ], 
-    { "styleFontFormatSelectors" : ["bold", "normal"], "dataXSelectors" : ["orange"], "view__dom_id" : "b" }
+    { "styleFontFormatSelectors" : ["bold", "normal"], "dataXSelectors" : ["Spock"], "view__dom_id" : "b" }
 )
 
       </script>
@@ -126,7 +126,7 @@ This dataset shows the mobile google pagerank performance score for a certain we
 | **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"name"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "styleFontFormatSelectors" : ["bold", "normal"], "dataXSelectors" : ["orange"] }``` | Object |
+| **Options** | ```{ "styleFontFormatSelectors" : ["bold", "normal"], "dataXSelectors" : ["Spock"] }``` | Object |
 
 
 ### Source Code
@@ -138,7 +138,7 @@ d3.statosio(
     file, 
     "name", 
     [ "mobile" ], 
-    { "styleFontFormatSelectors" : ["bold", "normal"], "dataXSelectors" : ["orange"] }
+    { "styleFontFormatSelectors" : ["bold", "normal"], "dataXSelectors" : ["Spock"] }
 )
 ```
 
@@ -161,7 +161,7 @@ d3.statosio(
                     file, 
                     "name", 
                     [ "mobile" ], 
-                    { "styleFontFormatSelectors" : ["bold", "normal"], "dataXSelectors" : ["orange"] }
+                    { "styleFontFormatSelectors" : ["bold", "normal"], "dataXSelectors" : ["Spock"] }
                 )
             } )
     </script>

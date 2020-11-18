@@ -41,7 +41,7 @@ POST
     file, 
     "name", 
     [ "mobile" ], 
-    { "dataXSelectors" : ["orange"], "view__dom_id" : "a" }
+    { "dataXSelectors" : ["Spock"], "view__dom_id" : "a" }
 )
 
       </script>
@@ -59,7 +59,7 @@ This dataset shows the mobile google pagerank performance score for a certain we
 | **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"name"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "dataXSelectors" : ["orange"] }``` | Object |
+| **Options** | ```{ "dataXSelectors" : ["Spock"] }``` | Object |
 
 
 ### Source Code
@@ -71,7 +71,7 @@ d3.statosio(
     file, 
     "name", 
     [ "mobile" ], 
-    { "dataXSelectors" : ["orange"] }
+    { "dataXSelectors" : ["Spock"] }
 )
 ```
 
@@ -94,7 +94,7 @@ d3.statosio(
                     file, 
                     "name", 
                     [ "mobile" ], 
-                    { "dataXSelectors" : ["orange"] }
+                    { "dataXSelectors" : ["Spock"] }
                 )
             } )
     </script>

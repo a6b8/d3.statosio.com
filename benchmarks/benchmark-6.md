@@ -251,7 +251,7 @@ title: 64 Diagrams
 
 <div id="example-27">
 	<script>
-		d3.statosio(file,"name",["mobile"],{"dataXSelectors":["orange"],"viewDomId":"example-27"})
+		d3.statosio(file,"name",["mobile"],{"dataXSelectors":["Spock"],"viewDomId":"example-27"})
 	</script>
 </div>
 [More Details](../options/data__x__selectors.html#example-a) | POST
@@ -368,7 +368,7 @@ title: 64 Diagrams
 
 <div id="example-40">
 	<script>
-		d3.statosio(file,"name",["mobile"],{"dataSortSelection":"start","dataXSelectors":["orange"],"viewDomId":"example-40"})
+		d3.statosio(file,"name",["mobile"],{"dataSortSelection":"start","dataXSelectors":["Spock"],"viewDomId":"example-40"})
 	</script>
 </div>
 [More Details](../options/data__sort__selection.html#example-a) | Set selection to: ```start```
@@ -377,7 +377,7 @@ title: 64 Diagrams
 
 <div id="example-41">
 	<script>
-		d3.statosio(file,"name",["mobile"],{"dataSortSelection":"end","dataXSelectors":["orange"],"viewDomId":"example-41"})
+		d3.statosio(file,"name",["mobile"],{"dataSortSelection":"end","dataXSelectors":["Spock"],"viewDomId":"example-41"})
 	</script>
 </div>
 [More Details](../options/data__sort__selection.html#example-b) | Set selection to: ```end```
@@ -485,7 +485,7 @@ title: 64 Diagrams
 
 <div id="example-53">
 	<script>
-		d3.statosio(file,"name",["mobile","desktop"],{"styleColorSelectorsChart":["yellow","red","green"],"dataXSelectors":["orange"],"viewDomId":"example-53"})
+		d3.statosio(file,"name",["mobile","desktop"],{"styleColorSelectorsChart":["yellow","red","green"],"dataXSelectors":["Spock"],"viewDomId":"example-53"})
 	</script>
 </div>
 [More Details](../options/style__color__selectors__chart.html#example-a) | Set palette to: ```["yellow", "red", "green"]```
@@ -494,7 +494,7 @@ title: 64 Diagrams
 
 <div id="example-54">
 	<script>
-		d3.statosio(file,"name",["mobile","desktop"],{"styleColorSelectorsChart":["#f59351","#c9504a","#12514c"],"dataXSelectors":["orange"],"viewDomId":"example-54"})
+		d3.statosio(file,"name",["mobile","desktop"],{"styleColorSelectorsChart":["#f59351","#c9504a","#12514c"],"dataXSelectors":["Spock"],"viewDomId":"example-54"})
 	</script>
 </div>
 [More Details](../options/style__color__selectors__chart.html#example-b) | Set palette to: ```["#f59351", "#c9504a", "#12514c"]```
@@ -503,7 +503,7 @@ title: 64 Diagrams
 
 <div id="example-55">
 	<script>
-		d3.statosio(file,"name",["mobile","desktop"],{"styleColorSelectorsText":["grey","lightgrey"],"dataXSelectors":["orange"],"viewDomId":"example-55"})
+		d3.statosio(file,"name",["mobile","desktop"],{"styleColorSelectorsText":["grey","lightgrey"],"dataXSelectors":["Spock"],"viewDomId":"example-55"})
 	</script>
 </div>
 [More Details](../options/style__color__selectors__text.html#example-a) | Set font color of selection and others to: ```["grey", "lightgrey"]```
@@ -512,7 +512,7 @@ title: 64 Diagrams
 
 <div id="example-56">
 	<script>
-		d3.statosio(file,"name",["mobile","desktop"],{"styleColorSelectorsText":["#f59351","#a6b797"],"dataXSelectors":["orange"],"viewDomId":"example-56"})
+		d3.statosio(file,"name",["mobile","desktop"],{"styleColorSelectorsText":["#f59351","#a6b797"],"dataXSelectors":["Spock"],"viewDomId":"example-56"})
 	</script>
 </div>
 [More Details](../options/style__color__selectors__text.html#example-b) | Set font color of selection and others to: ```["#f59351", "#a6b797"]```
@@ -575,7 +575,7 @@ title: 64 Diagrams
 
 <div id="example-63">
 	<script>
-		d3.statosio(file,"name",["mobile"],{"styleFontFormatSelectors":["normal","bold"],"dataXSelectors":["orange"],"viewDomId":"example-63"})
+		d3.statosio(file,"name",["mobile"],{"styleFontFormatSelectors":["normal","bold"],"dataXSelectors":["Spock"],"viewDomId":"example-63"})
 	</script>
 </div>
 [More Details](../options/style__font__format__selectors.html#example-a) | Set font format of selection x range text labels to: ```["normal", "bold"]```
@@ -584,7 +584,7 @@ title: 64 Diagrams
 
 <div id="example-64">
 	<script>
-		d3.statosio(file,"name",["mobile"],{"styleFontFormatSelectors":["bold","normal"],"dataXSelectors":["orange"],"viewDomId":"example-64"})
+		d3.statosio(file,"name",["mobile"],{"styleFontFormatSelectors":["bold","normal"],"dataXSelectors":["Spock"],"viewDomId":"example-64"})
 	</script>
 </div>
 [More Details](../options/style__font__format__selectors.html#example-b) | Set font format of selection x range text labels to: ```["bold", "normal"]```

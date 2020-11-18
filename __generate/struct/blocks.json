@@ -286,7 +286,7 @@
       "examples": [
         {
           "description": "POST",
-          "self": [ "orange" ]
+          "self": [ "Spock" ]
         }     
       ]
     },
@@ -418,12 +418,12 @@
         {
           "description": "Set selection to: ---self---",
           "self": "start",
-          "data__x__selectors": [ "orange" ]
+          "data__x__selectors": [ "Spock" ]
         },
         {
           "description": "Set selection to: ---self---",
           "self": "end",
-          "data__x__selectors": [ "orange" ]
+          "data__x__selectors": [ "Spock" ]
         }
       ]
     },
@@ -550,7 +550,7 @@
             "red",
             "green"
           ],
-          "data__x__selectors": [ "orange" ]
+          "data__x__selectors": [ "Spock" ]
         },
         {
           "description": "Set palette to: ---self---",
@@ -559,7 +559,7 @@
             "#c9504a",
             "#12514c"
           ],
-          "data__x__selectors": [ "orange" ]
+          "data__x__selectors": [ "Spock" ]
         }
       ]
     },
@@ -576,7 +576,7 @@
             "grey",
             "lightgrey"
           ],
-          "data__x__selectors": [ "orange" ]
+          "data__x__selectors": [ "Spock" ]
         },
         {
           "description": "Set font color of selection and others to: ---self---",
@@ -584,7 +584,7 @@
             "#f59351",
             "#a6b797"
           ],
-          "data__x__selectors": [ "orange" ]
+          "data__x__selectors": [ "Spock" ]
         }
       ]
     },
@@ -652,7 +652,7 @@
             "normal",
             "bold"
           ],
-          "data__x__selectors": [ "orange" ]
+          "data__x__selectors": [ "Spock" ]
         },
         {
           "description": "Set font format of selection x range text labels to: ---self---",
@@ -660,7 +660,7 @@
             "bold",
             "normal"
           ],
-          "data__x__selectors": [ "orange" ]
+          "data__x__selectors": [ "Spock" ]
         }
       ]
     },

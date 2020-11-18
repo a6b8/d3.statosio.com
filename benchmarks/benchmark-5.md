@@ -251,7 +251,7 @@ title: 32 Diagrams
 
 <div id="example-27">
 	<script>
-		d3.statosio(file,"name",["mobile"],{"dataXSelectors":["orange"],"viewDomId":"example-27"})
+		d3.statosio(file,"name",["mobile"],{"dataXSelectors":["Spock"],"viewDomId":"example-27"})
 	</script>
 </div>
 [More Details](../options/data__x__selectors.html#example-a) | POST

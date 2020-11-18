@@ -37,7 +37,7 @@ Set palette to: ```["yellow", "red", "green"]```
     file, 
     "name", 
     [ "mobile",  "desktop" ], 
-    { "styleColorSelectorsChart" : ["yellow", "red", "green"], "dataXSelectors" : ["orange"], "view__dom_id" : "a" }
+    { "styleColorSelectorsChart" : ["yellow", "red", "green"], "dataXSelectors" : ["Spock"], "view__dom_id" : "a" }
 )
 
       </script>
@@ -55,7 +55,7 @@ This dataset shows the mobile **and** desktop google pagerank performance score 
 | **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"name"``` | String |
 | **Y** | ```[ "mobile",  "desktop" ]``` | Array |
-| **Options** | ```{ "styleColorSelectorsChart" : ["yellow", "red", "green"], "dataXSelectors" : ["orange"] }``` | Object |
+| **Options** | ```{ "styleColorSelectorsChart" : ["yellow", "red", "green"], "dataXSelectors" : ["Spock"] }``` | Object |
 
 
 ### Source Code
@@ -67,7 +67,7 @@ d3.statosio(
     file, 
     "name", 
     [ "mobile",  "desktop" ], 
-    { "styleColorSelectorsChart" : ["yellow", "red", "green"], "dataXSelectors" : ["orange"] }
+    { "styleColorSelectorsChart" : ["yellow", "red", "green"], "dataXSelectors" : ["Spock"] }
 )
 ```
 
@@ -90,7 +90,7 @@ d3.statosio(
                     file, 
                     "name", 
                     [ "mobile",  "desktop" ], 
-                    { "styleColorSelectorsChart" : ["yellow", "red", "green"], "dataXSelectors" : ["orange"] }
+                    { "styleColorSelectorsChart" : ["yellow", "red", "green"], "dataXSelectors" : ["Spock"] }
                 )
             } )
     </script>
@@ -108,7 +108,7 @@ Set palette to: ```["#f59351", "#c9504a", "#12514c"]```
     file, 
     "name", 
     [ "mobile",  "desktop" ], 
-    { "styleColorSelectorsChart" : ["#f59351", "#c9504a", "#12514c"], "dataXSelectors" : ["orange"], "view__dom_id" : "b" }
+    { "styleColorSelectorsChart" : ["#f59351", "#c9504a", "#12514c"], "dataXSelectors" : ["Spock"], "view__dom_id" : "b" }
 )
 
       </script>
@@ -126,7 +126,7 @@ This dataset shows the mobile **and** desktop google pagerank performance score 
 | **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"name"``` | String |
 | **Y** | ```[ "mobile",  "desktop" ]``` | Array |
-| **Options** | ```{ "styleColorSelectorsChart" : ["#f59351", "#c9504a", "#12514c"], "dataXSelectors" : ["orange"] }``` | Object |
+| **Options** | ```{ "styleColorSelectorsChart" : ["#f59351", "#c9504a", "#12514c"], "dataXSelectors" : ["Spock"] }``` | Object |
 
 
 ### Source Code
@@ -138,7 +138,7 @@ d3.statosio(
     file, 
     "name", 
     [ "mobile",  "desktop" ], 
-    { "styleColorSelectorsChart" : ["#f59351", "#c9504a", "#12514c"], "dataXSelectors" : ["orange"] }
+    { "styleColorSelectorsChart" : ["#f59351", "#c9504a", "#12514c"], "dataXSelectors" : ["Spock"] }
 )
 ```
 
@@ -161,7 +161,7 @@ d3.statosio(
                     file, 
                     "name", 
                     [ "mobile",  "desktop" ], 
-                    { "styleColorSelectorsChart" : ["#f59351", "#c9504a", "#12514c"], "dataXSelectors" : ["orange"] }
+                    { "styleColorSelectorsChart" : ["#f59351", "#c9504a", "#12514c"], "dataXSelectors" : ["Spock"] }
                 )
             } )
     </script>

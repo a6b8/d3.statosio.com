@@ -41,7 +41,7 @@ Set selection to: ```start```
     file, 
     "name", 
     [ "mobile" ], 
-    { "dataSortSelection" : "start", "dataXSelectors" : ["orange"], "view__dom_id" : "a" }
+    { "dataSortSelection" : "start", "dataXSelectors" : ["Spock"], "view__dom_id" : "a" }
 )
 
       </script>
@@ -59,7 +59,7 @@ This dataset shows the mobile google pagerank performance score for a certain we
 | **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"name"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "dataSortSelection" : "start", "dataXSelectors" : ["orange"] }``` | Object |
+| **Options** | ```{ "dataSortSelection" : "start", "dataXSelectors" : ["Spock"] }``` | Object |
 
 
 ### Source Code
@@ -71,7 +71,7 @@ d3.statosio(
     file, 
     "name", 
     [ "mobile" ], 
-    { "dataSortSelection" : "start", "dataXSelectors" : ["orange"] }
+    { "dataSortSelection" : "start", "dataXSelectors" : ["Spock"] }
 )
 ```
 
@@ -94,7 +94,7 @@ d3.statosio(
                     file, 
                     "name", 
                     [ "mobile" ], 
-                    { "dataSortSelection" : "start", "dataXSelectors" : ["orange"] }
+                    { "dataSortSelection" : "start", "dataXSelectors" : ["Spock"] }
                 )
             } )
     </script>
@@ -112,7 +112,7 @@ Set selection to: ```end```
     file, 
     "name", 
     [ "mobile" ], 
-    { "dataSortSelection" : "end", "dataXSelectors" : ["orange"], "view__dom_id" : "b" }
+    { "dataSortSelection" : "end", "dataXSelectors" : ["Spock"], "view__dom_id" : "b" }
 )
 
       </script>
@@ -130,7 +130,7 @@ This dataset shows the mobile google pagerank performance score for a certain we
 | **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"name"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "dataSortSelection" : "end", "dataXSelectors" : ["orange"] }``` | Object |
+| **Options** | ```{ "dataSortSelection" : "end", "dataXSelectors" : ["Spock"] }``` | Object |
 
 
 ### Source Code
@@ -142,7 +142,7 @@ d3.statosio(
     file, 
     "name", 
     [ "mobile" ], 
-    { "dataSortSelection" : "end", "dataXSelectors" : ["orange"] }
+    { "dataSortSelection" : "end", "dataXSelectors" : ["Spock"] }
 )
 ```
 
@@ -165,7 +165,7 @@ d3.statosio(
                     file, 
                     "name", 
                     [ "mobile" ], 
-                    { "dataSortSelection" : "end", "dataXSelectors" : ["orange"] }
+                    { "dataSortSelection" : "end", "dataXSelectors" : ["Spock"] }
                 )
             } )
     </script>
