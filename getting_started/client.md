@@ -3,7 +3,7 @@ sort: 0 # follow a certain sequence of letters or numbers
 title: Client-side (.js)
 ---
 
-# Client-side (javascript)
+# Client-side (.js)
 
 ## Steps
 
@@ -29,7 +29,7 @@ d3.json( "./dataset.json" )
 )
 ```
 
-### 4: Load Diagram
+### 4: Create Diagram
 Load diagram
 ```javascript
 d3.statosio( dataset, xRange, yRange, options = {} )
@@ -47,6 +47,7 @@ d3.statosio( dataset, xRange, yRange, options = {} )
         )
     </script>
 </div>
+
 
 ```html
 <!DOCTYPE html>

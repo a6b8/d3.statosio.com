@@ -407,6 +407,10 @@
           "description": "Set sequence to: ---self---",
           "data__sort__current": "values",
           "self": "decending"
+        },
+        {
+          "description": "Set sequence to: ---self---",
+          "data__sort__current": "none"
         }
       ]
     },
@@ -444,6 +448,11 @@
         {
           "description": "Set selection to: ---self---",
           "self": "end",
+          "data__x__selectors": [ "Spock" ]
+        },
+        {
+          "description": "Set selection to: ---self---",
+          "self": "none",
           "data__x__selectors": [ "Spock" ]
         }
       ]

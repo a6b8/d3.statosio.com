@@ -171,3 +171,74 @@ d3.statosio(
     </script>
 </body>
 ```
+## Example C.
+
+Set selection to: ```none```
+
+### Output
+
+  <div id="c">
+      <script> 
+          d3.statosio( 
+    file, 
+    "name", 
+    [ "mobile" ], 
+    { "dataSortSelection" : "none", "dataXSelectors" : ["Spock"], "view__dom_id" : "c" }
+)
+
+      </script>
+  </div>
+
+Open output in a [blank window](../sources/dataSortSelection--example-c.html){:target="_self"}. 
+Download examples [as zip](../sources/dataSortSelection.zip){:target="_blank"}. 
+
+### Parameters
+
+This dataset shows the mobile google pagerank performance score for a certain website.
+
+| | **Value** | **Type** |
+|------:|:------|:------|
+| **Source** | ["../data/performance.json"](../data/performance.json) | String |
+| **X** | ```"name"``` | String |
+| **Y** | ```[ "mobile" ]``` | Array |
+| **Options** | ```{ "dataSortSelection" : "none", "dataXSelectors" : ["Spock"] }``` | Object |
+
+
+### Source Code
+
+* Invoke Function
+
+```javascript
+d3.statosio( 
+    file, 
+    "name", 
+    [ "mobile" ], 
+    { "dataSortSelection" : "none", "dataXSelectors" : ["Spock"] }
+)
+```
+
+* HTML Implementation
+
+```html
+<!DOCTYPE html>
+<head>
+    <title>d3.statosio - dataSortSelection</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.2.0/d3.js"></script>
+    <script src="../libs/statosio.js"></script>
+</head>
+<body>
+    <script>
+        d3.json( "../data/performance.json" )
+            .then( ( file ) => {
+                d3.statosio( 
+                    file, 
+                    "name", 
+                    [ "mobile" ], 
+                    { "dataSortSelection" : "none", "dataXSelectors" : ["Spock"] }
+                )
+            } )
+    </script>
+</body>
+```

@@ -382,210 +382,210 @@ title: 64 Diagrams
 </div>
 [More Details](../options/data__sort__by__values.html#example-b) | Set sequence to: ```decending```
 
-### 42. dataSortByNames (A)
+### 42. dataSortByValues (C)
 
 <div id="example-42">
 	<script>
-		d3.statosio(file,"name",["mobile","desktop"],{"dataSortCurrent":"names","dataSortByNames":"ascending","viewDomId":"example-42"})
+		d3.statosio(file,"name",["mobile"],{"dataSortCurrent":"none","viewDomId":"example-42"})
+	</script>
+</div>
+[More Details](../options/data__sort__by__values.html#example-c) | Set sequence to: ``````
+
+### 43. dataSortByNames (A)
+
+<div id="example-43">
+	<script>
+		d3.statosio(file,"name",["mobile","desktop"],{"dataSortCurrent":"names","dataSortByNames":"ascending","viewDomId":"example-43"})
 	</script>
 </div>
 [More Details](../options/data__sort__by__names.html#example-a) | Set sequence to: ```ascending```
 
-### 43. dataSortByNames (B)
+### 44. dataSortByNames (B)
 
-<div id="example-43">
+<div id="example-44">
 	<script>
-		d3.statosio(file,"name",["mobile","desktop"],{"dataSortCurrent":"names","dataSortByNames":"decending","viewDomId":"example-43"})
+		d3.statosio(file,"name",["mobile","desktop"],{"dataSortCurrent":"names","dataSortByNames":"decending","viewDomId":"example-44"})
 	</script>
 </div>
 [More Details](../options/data__sort__by__names.html#example-b) | Set sequence to: ```decending```
 
-### 44. dataSortSelection (A)
+### 45. dataSortSelection (A)
 
-<div id="example-44">
+<div id="example-45">
 	<script>
-		d3.statosio(file,"name",["mobile"],{"dataSortSelection":"start","dataXSelectors":["Spock"],"viewDomId":"example-44"})
+		d3.statosio(file,"name",["mobile"],{"dataSortSelection":"start","dataXSelectors":["Spock"],"viewDomId":"example-45"})
 	</script>
 </div>
 [More Details](../options/data__sort__selection.html#example-a) | Set selection to: ```start```
 
-### 45. dataSortSelection (B)
+### 46. dataSortSelection (B)
 
-<div id="example-45">
+<div id="example-46">
 	<script>
-		d3.statosio(file,"name",["mobile"],{"dataSortSelection":"end","dataXSelectors":["Spock"],"viewDomId":"example-45"})
+		d3.statosio(file,"name",["mobile"],{"dataSortSelection":"end","dataXSelectors":["Spock"],"viewDomId":"example-46"})
 	</script>
 </div>
 [More Details](../options/data__sort__selection.html#example-b) | Set selection to: ```end```
 
-### 46. dataLegendTextSeparater (A)
+### 47. dataSortSelection (C)
 
-<div id="example-46">
+<div id="example-47">
 	<script>
-		d3.statosio(file,"name",["mobile","desktop"],{"showLegend":true,"dataLegendTextSeparater":"_","viewDomId":"example-46"})
+		d3.statosio(file,"name",["mobile"],{"dataSortSelection":"none","dataXSelectors":["Spock"],"viewDomId":"example-47"})
+	</script>
+</div>
+[More Details](../options/data__sort__selection.html#example-c) | Set selection to: ```none```
+
+### 48. dataLegendTextSeparater (A)
+
+<div id="example-48">
+	<script>
+		d3.statosio(file,"name",["mobile","desktop"],{"showLegend":true,"dataLegendTextSeparater":"_","viewDomId":"example-48"})
 	</script>
 </div>
 [More Details](../options/data__legend__text__separater.html#example-a) | Replace character "```_```" to " " in the legend text label
 
-### 47. styleColorAverage (A)
+### 49. styleColorAverage (A)
 
-<div id="example-47">
+<div id="example-49">
 	<script>
-		d3.statosio(file,"name",["mobile"],{"styleColorAverage":"purple","viewDomId":"example-47"})
+		d3.statosio(file,"name",["mobile"],{"styleColorAverage":"purple","viewDomId":"example-49"})
 	</script>
 </div>
 [More Details](../options/style__color__average.html#example-a) | Set average color line to: ```purple```
 
-### 48. styleColorAverage (B)
+### 50. styleColorAverage (B)
 
-<div id="example-48">
+<div id="example-50">
 	<script>
-		d3.statosio(file,"name",["mobile"],{"styleColorAverage":"#c1033c","viewDomId":"example-48"})
+		d3.statosio(file,"name",["mobile"],{"styleColorAverage":"#c1033c","viewDomId":"example-50"})
 	</script>
 </div>
 [More Details](../options/style__color__average.html#example-b) | Set average color line to: ```#c1033c```
 
-### 49. styleColorCanvasBackground (A)
+### 51. styleColorCanvasBackground (A)
 
-<div id="example-49">
+<div id="example-51">
 	<script>
-		d3.statosio(file,"name",["mobile"],{"styleColorCanvasBackground":"lightgray","viewDomId":"example-49"})
+		d3.statosio(file,"name",["mobile"],{"styleColorCanvasBackground":"lightgray","viewDomId":"example-51"})
 	</script>
 </div>
 [More Details](../options/style__color__canvas_background.html#example-a) | Set background color to: ```lightgray```
 
-### 50. styleColorCanvasBackground (B)
+### 52. styleColorCanvasBackground (B)
 
-<div id="example-50">
+<div id="example-52">
 	<script>
-		d3.statosio(file,"name",["mobile"],{"styleColorCanvasBackground":"#fed8b1","viewDomId":"example-50"})
+		d3.statosio(file,"name",["mobile"],{"styleColorCanvasBackground":"#fed8b1","viewDomId":"example-52"})
 	</script>
 </div>
 [More Details](../options/style__color__canvas_background.html#example-b) | Set background color to: ```#fed8b1```
 
-### 51. styleColorFont (A)
+### 53. styleColorFont (A)
 
-<div id="example-51">
+<div id="example-53">
 	<script>
-		d3.statosio(file,"name",["mobile"],{"styleColorFont":"red","viewDomId":"example-51"})
+		d3.statosio(file,"name",["mobile"],{"styleColorFont":"red","viewDomId":"example-53"})
 	</script>
 </div>
 [More Details](../options/style__color__font.html#example-a) | Set default font color to: ```red```
 
-### 52. styleColorFont (B)
+### 54. styleColorFont (B)
 
-<div id="example-52">
+<div id="example-54">
 	<script>
-		d3.statosio(file,"name",["mobile"],{"styleColorFont":"#f66504","viewDomId":"example-52"})
+		d3.statosio(file,"name",["mobile"],{"styleColorFont":"#f66504","viewDomId":"example-54"})
 	</script>
 </div>
 [More Details](../options/style__color__font.html#example-b) | Set default font color to: ```#f66504```
 
-### 53. styleColorLegends (A)
+### 55. styleColorLegends (A)
 
-<div id="example-53">
+<div id="example-55">
 	<script>
-		d3.statosio(file,"name",["mobile","desktop"],{"styleColorLegends":["yellow","red","green"],"viewDomId":"example-53"})
+		d3.statosio(file,"name",["mobile","desktop"],{"styleColorLegends":["yellow","red","green"],"viewDomId":"example-55"})
 	</script>
 </div>
 [More Details](../options/style__color__legends.html#example-a) | Set color legend palette to: ```["yellow", "red", "green"]```
 
-### 54. styleColorLegends (B)
+### 56. styleColorLegends (B)
 
-<div id="example-54">
+<div id="example-56">
 	<script>
-		d3.statosio(file,"name",["mobile","desktop"],{"styleColorLegends":["#f59351","#c9504a","#12514c","#2f7872","#a6b797"],"viewDomId":"example-54"})
+		d3.statosio(file,"name",["mobile","desktop"],{"styleColorLegends":["#f59351","#c9504a","#12514c","#2f7872","#a6b797"],"viewDomId":"example-56"})
 	</script>
 </div>
 [More Details](../options/style__color__legends.html#example-b) | 
 
-### 55. styleColorGridline (A)
+### 57. styleColorGridline (A)
 
-<div id="example-55">
+<div id="example-57">
 	<script>
-		d3.statosio(file,"name",["mobile"],{"styleColorGridline":"yellow","viewDomId":"example-55"})
+		d3.statosio(file,"name",["mobile"],{"styleColorGridline":"yellow","viewDomId":"example-57"})
 	</script>
 </div>
 [More Details](../options/style__color__gridline.html#example-a) | Set gridline value to: ```yellow```
 
-### 56. styleColorGridline (B)
+### 58. styleColorGridline (B)
 
-<div id="example-56">
+<div id="example-58">
 	<script>
-		d3.statosio(file,"name",["mobile"],{"styleColorGridline":"#f59351","viewDomId":"example-56"})
+		d3.statosio(file,"name",["mobile"],{"styleColorGridline":"#f59351","viewDomId":"example-58"})
 	</script>
 </div>
 [More Details](../options/style__color__gridline.html#example-b) | Set gridline value to: ```#f59351```
 
-### 57. styleColorSelectorsChart (A)
+### 59. styleColorSelectorsChart (A)
 
-<div id="example-57">
+<div id="example-59">
 	<script>
-		d3.statosio(file,"name",["mobile","desktop"],{"styleColorSelectorsChart":["yellow","red","green"],"dataXSelectors":["Spock"],"viewDomId":"example-57"})
+		d3.statosio(file,"name",["mobile","desktop"],{"styleColorSelectorsChart":["yellow","red","green"],"dataXSelectors":["Spock"],"viewDomId":"example-59"})
 	</script>
 </div>
 [More Details](../options/style__color__selectors__chart.html#example-a) | Set palette to: ```["yellow", "red", "green"]```
 
-### 58. styleColorSelectorsChart (B)
+### 60. styleColorSelectorsChart (B)
 
-<div id="example-58">
+<div id="example-60">
 	<script>
-		d3.statosio(file,"name",["mobile","desktop"],{"styleColorSelectorsChart":["#f59351","#c9504a","#12514c"],"dataXSelectors":["Spock"],"viewDomId":"example-58"})
+		d3.statosio(file,"name",["mobile","desktop"],{"styleColorSelectorsChart":["#f59351","#c9504a","#12514c"],"dataXSelectors":["Spock"],"viewDomId":"example-60"})
 	</script>
 </div>
 [More Details](../options/style__color__selectors__chart.html#example-b) | Set palette to: ```["#f59351", "#c9504a", "#12514c"]```
 
-### 59. styleColorSelectorsText (A)
+### 61. styleColorSelectorsText (A)
 
-<div id="example-59">
+<div id="example-61">
 	<script>
-		d3.statosio(file,"name",["mobile","desktop"],{"styleColorSelectorsText":["grey","lightgrey"],"dataXSelectors":["Spock"],"viewDomId":"example-59"})
+		d3.statosio(file,"name",["mobile","desktop"],{"styleColorSelectorsText":["grey","lightgrey"],"dataXSelectors":["Spock"],"viewDomId":"example-61"})
 	</script>
 </div>
 [More Details](../options/style__color__selectors__text.html#example-a) | Set font color of selection and others to: ```["grey", "lightgrey"]```
 
-### 60. styleColorSelectorsText (B)
+### 62. styleColorSelectorsText (B)
 
-<div id="example-60">
+<div id="example-62">
 	<script>
-		d3.statosio(file,"name",["mobile","desktop"],{"styleColorSelectorsText":["#f59351","#a6b797"],"dataXSelectors":["Spock"],"viewDomId":"example-60"})
+		d3.statosio(file,"name",["mobile","desktop"],{"styleColorSelectorsText":["#f59351","#a6b797"],"dataXSelectors":["Spock"],"viewDomId":"example-62"})
 	</script>
 </div>
 [More Details](../options/style__color__selectors__text.html#example-b) | Set font color of selection and others to: ```["#f59351", "#a6b797"]```
 
-### 61. styleFontSizeText (A)
+### 63. styleFontSizeText (A)
 
-<div id="example-61">
+<div id="example-63">
 	<script>
-		d3.statosio(file,"name",["mobile"],{"styleFontSizeText":20,"viewDomId":"example-61"})
+		d3.statosio(file,"name",["mobile"],{"styleFontSizeText":20,"viewDomId":"example-63"})
 	</script>
 </div>
 [More Details](../options/style__font__size__text.html#example-a) | Set default font size to: ```20```
 
-### 62. styleFontSizeText (B)
-
-<div id="example-62">
-	<script>
-		d3.statosio(file,"name",["mobile"],{"styleFontSizeText":5,"viewDomId":"example-62"})
-	</script>
-</div>
-[More Details](../options/style__font__size__text.html#example-b) | Set default font size to: ```5```
-
-### 63. styleFontSizeTitle (A)
-
-<div id="example-63">
-	<script>
-		d3.statosio(file,"name",["mobile"],{"styleFontSizeTitle":20,"viewDomId":"example-63"})
-	</script>
-</div>
-[More Details](../options/style__font__size__title.html#example-a) | Set title font size to: ```20```
-
-### 64. styleFontSizeTitle (B)
+### 64. styleFontSizeText (B)
 
 <div id="example-64">
 	<script>
-		d3.statosio(file,"name",["mobile"],{"styleFontSizeTitle":5,"viewDomId":"example-64"})
+		d3.statosio(file,"name",["mobile"],{"styleFontSizeText":5,"viewDomId":"example-64"})
 	</script>
 </div>
-[More Details](../options/style__font__size__title.html#example-b) | Set title font size to: ```5```
+[More Details](../options/style__font__size__text.html#example-b) | Set default font size to: ```5```
 
