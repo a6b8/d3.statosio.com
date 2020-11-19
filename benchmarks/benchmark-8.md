@@ -1,9 +1,9 @@
 ---
-sort: 1
-title: 2 Diagrams
+sort: 8
+title: 1 Diagram
 ---
 
-# 2 Diagrams
+# 1 Diagram
 
 ## Result
 
@@ -21,13 +21,4 @@ title: 2 Diagrams
 	</script>
 </div>
 [More Details](../options/show__title.html#example-a) | Show title
-
-### 2. showTitle (B)
-
-<div id="example-2">
-	<script>
-		d3.statosio(file,"name",["mobile"],{"showTitle":false,"viewDomId":"example-2"})
-	</script>
-</div>
-[More Details](../options/show__title.html#example-b) | Hide title
 

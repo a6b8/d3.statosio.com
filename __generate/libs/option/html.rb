@@ -1,5 +1,5 @@
 def html_create( page, id, params )
-    alphabet = ( 'a'..'b' ).to_a
+    alphabet = ( 'a'..'z' ).to_a
     page[:html].each.with_index do | html, i |
         char = alphabet[ i ]
         name = ''

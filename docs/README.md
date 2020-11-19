@@ -11,7 +11,7 @@ An add-on function for [d3](https://d3js.org){:target="_blank"} to generate simp
 
 :heavy_check_mark: highly customizable with 40+ style and data options.
 
-## Try it out!
+## Chart Types
 
 ### Bar Charts
 
@@ -21,11 +21,11 @@ An add-on function for [d3](https://d3js.org){:target="_blank"} to generate simp
             file, 
             "name", 
             [ "mobile" ], 
-            { "showTitle" : false, "viewDomId" : "bar" }
+            { "showAverage" : false, "viewDomId" : "bar" }
         )
     </script>
 </div>
-[Source Code](../options/show__title.html#source-code) | [Download Source Code as .zip](../sources/showTitle.zip)
+[Source Code](../options/show__average.html#source-code-1) | [Download Source Code as .zip](../sources/showAverage.zip)
 
 
 ### Point Charts
@@ -36,12 +36,11 @@ An add-on function for [d3](https://d3js.org){:target="_blank"} to generate simp
             file, 
             "name", 
             [ "mobile" ], 
-            { "showTitle" : false, "showDataAsCircle": true, "viewDomId" : "point" }
+            { "showDataAsCircle" : true, "showAverage" : false, "viewDomId" : "point" }
         )
     </script>
 </div>
-[Source Code](../options/show__data_as_circle.html#source-code) | [Download Source Code as .zip](../sources/showDataAsCircle.zip)
-
+[Source Code](../options/show__data_as_circle.html#source-code-2) | [Download Source Code as .zip](../sources/showDataAsCircle.zip)
 
 ### Stacked Bar Charts
 
@@ -51,13 +50,48 @@ An add-on function for [d3](https://d3js.org){:target="_blank"} to generate simp
             file, 
             "name", 
             [ "mobile", "desktop" ], 
-            { "showLegend": true, "viewDomId" : "stacked" }
+            { "showLegend": true, "showAverage" : false, "viewDomId" : "stacked" }
         )
     </script>
 </div>
-[Source Code](../options/show__legend.html#source-code) | [Download Source Code as .zip](../sources/showLegend.zip)
+[Source Code](../options/show__legend.html#source-code-2) | [Download Source Code as .zip](../sources/showLegend.zip)
 
 
+## Features
 
+### Selection Row
+
+<div id="selected-row">
+    <script> 
+        d3.statosio( 
+            file, 
+            "name", 
+            [ "mobile" ], 
+            { "dataXSelectors" : ["Data"], "showAverage": false, "viewDomId" : "selected-row" }
+        )
+    </script>
+</div>
+[Source Code](../options/data__x__selectors.html#source-code) | [Download Source Code as .zip](../sources/dataXSelectors.zip)
+
+
+### Sort Data<br><br>
+
+<div id="sort-data">
+    <script> 
+        d3.statosio( 
+            file, 
+            "name", 
+            [ "mobile" ], 
+            { "dataSortCurrent" : "values", "dataSortByValues" : "ascending", "showAverage" : false, "viewDomId" : "sort-data" }
+        )
+    </script>
+</div>
+[Source Code](../options/data__sort__by__values.html#source-code) | [Download Source Code as .zip](../sources/dataSortByValues.zip)
+
+## Speedtest
+
+| **Name** | **Result** |
+| Loading Time | <insert id='statosioLoadingTime'>waiting..</insert> |
+| Dom Elements | <insert id='statosioDomElements'>waiting..</insert> |
 
 

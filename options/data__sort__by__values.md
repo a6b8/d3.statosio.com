@@ -31,7 +31,7 @@ Allow "ascending" or "decending" as value.
 
 ## Example A.
 
-Set sequence to: ```ascending```
+Set sequence to: ```ascending``` and hide average line.
 
 ### Output
 
@@ -41,7 +41,7 @@ Set sequence to: ```ascending```
     file, 
     "name", 
     [ "mobile" ], 
-    { "dataSortCurrent" : "values", "dataSortByValues" : "ascending", "view__dom_id" : "a" }
+    { "dataSortCurrent" : "values", "dataSortByValues" : "ascending", "showAverage" : false, "view__dom_id" : "a" }
 )
 
       </script>
@@ -59,7 +59,7 @@ This dataset shows the mobile google pagerank performance score for a certain we
 | **Source** | ["../data/performance.json"](../data/performance.json) | String |
 | **X** | ```"name"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array |
-| **Options** | ```{ "dataSortCurrent" : "values", "dataSortByValues" : "ascending" }``` | Object |
+| **Options** | ```{ "dataSortCurrent" : "values", "dataSortByValues" : "ascending", "showAverage" : false }``` | Object |
 
 
 ### Source Code
@@ -71,7 +71,7 @@ d3.statosio(
     file, 
     "name", 
     [ "mobile" ], 
-    { "dataSortCurrent" : "values", "dataSortByValues" : "ascending" }
+    { "dataSortCurrent" : "values", "dataSortByValues" : "ascending", "showAverage" : false }
 )
 ```
 
@@ -94,7 +94,7 @@ d3.statosio(
                     file, 
                     "name", 
                     [ "mobile" ], 
-                    { "dataSortCurrent" : "values", "dataSortByValues" : "ascending" }
+                    { "dataSortCurrent" : "values", "dataSortByValues" : "ascending", "showAverage" : false }
                 )
             } )
     </script>

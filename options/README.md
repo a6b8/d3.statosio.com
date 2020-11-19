@@ -11,10 +11,10 @@ Show or hide elements from the view.
 |   | **Option** | **Default** | **Examples** | **Description** |
 |:--|:--|:--|:--|:--|
 | A.1. | [showTitle](../options/show__title.md) | false | [A](../options/show__title.html#example-a), [B](../options/show__title.html#example-b) | Show or hide title on the front of the diagram. |
-| A.2. | [showLegend](../options/show__legend.md) | false | [A](../options/show__legend.html#example-a), [B](../options/show__legend.html#example-b) | Show or hide legend. Recommended for stacked diagrams. |
-| A.3. | [showAverage](../options/show__average.md) | true | [A](../options/show__average.html#example-a), [B](../options/show__average.html#example-b) | Calculate and show average line |
+| A.2. | [showLegend](../options/show__legend.md) | false | [A](../options/show__legend.html#example-a), [B](../options/show__legend.html#example-b), [C](../options/show__legend.html#example-c) | Show or hide legend. Recommended for stacked diagrams. |
+| A.3. | [showAverage](../options/show__average.md) | true | [A](../options/show__average.html#example-a), [B](../options/show__average.html#example-b), [C](../options/show__average.html#example-c) | Calculate and show average line |
 | A.4. | [showRangeYLog](../options/show__range_y_log.md) | false | [A](../options/show__range_y_log.html#example-a), [B](../options/show__range_y_log.html#example-b) | Calculate and show range y in a log scale. |
-| A.5. | [showDataAsCircle](../options/show__data_as_circle.md) | false | [A](../options/show__data_as_circle.html#example-a), [B](../options/show__data_as_circle.html#example-b) | Show data as circles instead of rectangles. Only for not stacked diagram available. |
+| A.5. | [showDataAsCircle](../options/show__data_as_circle.md) | false | [A](../options/show__data_as_circle.html#example-a), [B](../options/show__data_as_circle.html#example-b), [C](../options/show__data_as_circle.html#example-c) | Show data as circles instead of rectangles. Only for not stacked diagram available. |
 
 ### B. View {#view}
 Settings around the diagram as a whole.
@@ -37,7 +37,7 @@ Rearrange Data by sorting or set selectors.
 |   | **Option** | **Default** | **Examples** | **Description** |
 |:--|:--|:--|:--|:--|
 | C.1. | [dataXKey](../options/data__x__key.md) | "" |  | Expect a "key" name from the dataset to arrange the x range. |
-| C.2. | [dataXSelectors](../options/data__x__selectors.md) | [] | [A](../options/data__x__selectors.html#example-a) | Expect one or more names which are included in the x range. |
+| C.2. | [dataXSelectors](../options/data__x__selectors.md) | [] | [A](../options/data__x__selectors.html#example-a), [B](../options/data__x__selectors.html#example-b) | Expect one or more names which are included in the x range. |
 | C.3. | [dataXTextLength](../options/data__x__text__length.md) | 25 | [A](../options/data__x__text__length.html#example-a), [B](../options/data__x__text__length.html#example-b) | This value counts the length of the x range names an cut of the rest. |
 | C.4. | [dataXTextPlaceholder](../options/data__x__text__placeholder.md) | "..." | [A](../options/data__x__text__placeholder.html#example-a), [B](../options/data__x__text__placeholder.html#example-b) | Set an suffix behind a string. As a signal to the viewer, that the text was cut of. |
 | C.5. | [dataYKeys](../options/data__y__keys.md) | [] |  | Expect "keys" from the dataset to arrange the y range. If you use one key the internal state is "bar". if you use multiple the internal is "stacked" |

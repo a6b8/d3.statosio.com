@@ -68,6 +68,11 @@
         {
           "description": "Hide legend",
           "self": false
+        },
+        {
+          "description": "Hide legend",
+          "self": true,
+          "showAverage": false
         }
       ]
     },
@@ -85,6 +90,11 @@
         {
           "description": "Hide average Line",
           "self": false
+        },
+        {
+          "description": "Hide average Line as show data with as points",
+          "self": false,
+          "showDataAsCircle": true
         }
       ]
     },
@@ -119,6 +129,11 @@
         {
           "description": "Draw data with bars",
           "self": false
+        },
+        {
+          "description": "Hide average Line as show data with as points",
+          "self": true,
+          "showAverage": false
         }
       ]
     },
@@ -285,9 +300,14 @@
       "validation": "array__string__default",
       "examples": [
         {
-          "description": "POST",
-          "self": [ "Spock" ]
-        }     
+          "description": "Selection is set to: ---self---",
+          "self": [ "Data" ],
+          "showAverage": false
+        },
+        {
+          "description": "Multiple selections are set: ---self---",
+          "self": [ "Spock", "Data" ]
+        }           
       ]
     },
     "data__x__text__length": {
@@ -378,9 +398,10 @@
       "validation": "single__string__sort_type",
       "examples": [
         {
-          "description": "Set sequence to: ---self---",
+          "description": "Set sequence to: ---self--- and hide average line." ,
           "data__sort__current": "values",
-          "self": "ascending"
+          "self": "ascending",
+          "showAverage": false
         },
         {
           "description": "Set sequence to: ---self---",

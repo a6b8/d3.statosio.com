@@ -10,7 +10,7 @@ def readme_prepare( sort, readmes, blocks )
         )
 
     items = []
-    alphabet = ( 'A'..'B' ).to_a
+    alphabet = ( 'A'..'Z' ).to_a
     readmes.each.with_index do | readme, index |
         item = {
             numbering: nil,

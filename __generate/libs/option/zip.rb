@@ -33,8 +33,10 @@ def zip_prepare( blocks, id, dataset, script, root, sources )
     item[:sources][:full] << item[:root]
     item[:sources][:full] << ''
     item[:sources][:full] << item[:sources][:name]
+
     item[:to][:folder] = ''
     item[:to][:folder] << helper_flat_to_camel_case( item[:id]  )
+
     item[:to][:full] = ''
     item[:to][:full] << item[:sources][:full]
     item[:to][:full] << '/'
@@ -97,6 +99,17 @@ def zip_create_folder( item, blocks )
     files.each do | file |
         FileUtils.mkdir_p( File.dirname( file[:to] ) )
         FileUtils.cp( file[:from], file[:to] )
+
+        if file[:to].end_with?( '.html' )
+            code = File.read( file[:to] )
+            code = code
+                .split( "\n" )
+                .map { | d | !d.strip.start_with?( *[ 'h = ', 'h.', 'document.', '<div' ] ) ? d : nil }
+                .compact
+                .join( "\n" )
+
+            File.open( file[:to], 'w' ) { | f | f.write( code ) }
+        end
     end
     return true
 end
