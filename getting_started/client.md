@@ -20,7 +20,7 @@ Load statosio.js after d3.
 ```
 
 ### 3: Load Dataset
-d3.js aspect a json array with object in it: [{},{}...]
+d3.js expect a json array with object in it: [{},{}...]
 ```javascript
 d3.json( "./dataset.json" )
     .then( ( file ) => {

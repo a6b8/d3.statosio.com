@@ -59,7 +59,7 @@ An add-on function for [d3](https://d3js.org){:target="_blank"} to generate simp
 
 ## Features
 
-### Selection Row
+### Select Row
 
 <div id="selected-row">
     <script> 
@@ -87,6 +87,33 @@ An add-on function for [d3](https://d3js.org){:target="_blank"} to generate simp
     </script>
 </div>
 [Source Code](../options/data__sort__by__values.html#source-code) | [Download Source Code as .zip](../sources/dataSortByValues.zip)
+
+
+### Customize Data<br><br>
+
+<div id="customize">
+    <script> 
+        d3.statosio( 
+            file, 
+            "name", 
+            [ "mobile" ], 
+            { 
+                "styleColorSelectorsChart": ["#E2B08E", "#CC8074"],
+                "dataXSelectors" : ["Data"],
+                "styleColorCanvasBackground" : "none",
+                "styleColorGridline" : "#2F3138",
+                "styleStrokeGridline" : 1,
+                "styleColorFont" : "#BABABA",
+                "styleColorSelectorsText" : ["#E2B08E", "#BABABA"],
+                "dataSortCurrent" : "values", 
+                "dataSortByValues" : "ascending", 
+                "showAverage" : false, 
+                "viewDomId" : "customize" 
+            }
+        )
+    </script>
+</div>
+
 
 ## Speedtest
 
