@@ -89,7 +89,7 @@ An add-on function for [d3](https://d3js.org){:target="_blank"} to generate simp
 [Source Code](../options/data__sort__by__values.html#source-code) | [Download Source Code as .zip](../sources/dataSortByValues.zip)
 
 
-### Customize Data<br><br>
+### Customize Style
 
 <div id="customize">
     <script> 
@@ -105,6 +105,7 @@ An add-on function for [d3](https://d3js.org){:target="_blank"} to generate simp
                 "styleStrokeGridline" : 1,
                 "styleColorFont" : "#BABABA",
                 "styleColorSelectorsText" : ["#E2B08E", "#BABABA"],
+                "dataSortSelection" : "start",
                 "dataSortCurrent" : "values", 
                 "dataSortByValues" : "ascending", 
                 "showAverage" : false, 
