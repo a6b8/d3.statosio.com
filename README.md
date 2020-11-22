@@ -1,4 +1,4 @@
-# d3.statosio
+![# d3.statosio](./assets/images/d3-statosio-200.png)
 
 An add-on function for [d3](https://d3js.org){:target="_blank"} to generate simple chart diagrams, fast and reliable.
 

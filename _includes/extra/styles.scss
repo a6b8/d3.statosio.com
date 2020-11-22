@@ -303,3 +303,8 @@ div.content.px-2.py-3 {
     border-left: 2px solid  #1C1E26 !important;
     border-top: var(--stat-border-small) !important;
 }
+
+
+.markdown-body img {
+    background-color: transparent !important;
+}
