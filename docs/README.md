@@ -59,19 +59,24 @@ An add-on function for [d3](https://d3js.org){:target="_blank"} to generate simp
 
 ## Features
 
-### Select Row
+### Select columns<br><br>
 
-<div id="selected-row">
+<div id="select-columns">
     <script> 
         d3.statosio( 
             file, 
             "name", 
             [ "mobile" ], 
-            { "dataXSelectors" : ["Data"], "showAverage": false, "viewDomId" : "selected-row" }
+            { 
+                "dataXSelectors" : ["Data", "Spock"],
+                "dataSortSelection" : "start",
+                "showAverage" : false,
+                "viewDomId" : "select-columns"
+            }
         )
     </script>
 </div>
-[Source Code](../options/data__x__selectors.html#source-code) | [Download Source Code as .zip](../sources/dataXSelectors.zip)
+[Source Code](../tutorials/select-data.html)
 
 
 ### Sort Data<br><br>
@@ -82,11 +87,16 @@ An add-on function for [d3](https://d3js.org){:target="_blank"} to generate simp
             file, 
             "name", 
             [ "mobile" ], 
-            { "dataSortCurrent" : "values", "dataSortByValues" : "ascending", "showAverage" : false, "viewDomId" : "sort-data" }
+            { 
+                "dataSortCurrent" : "values", 
+                "dataSortByValues" : "ascending", 
+                "showAverage" : false,
+                "viewDomId" : "sort-data"
+            }
         )
     </script>
 </div>
-[Source Code](../options/data__sort__by__values.html#source-code) | [Download Source Code as .zip](../sources/dataSortByValues.zip)
+[Source Code](../tutorials/sort-data.html)
 
 
 ### Customize Style
@@ -99,22 +109,18 @@ An add-on function for [d3](https://d3js.org){:target="_blank"} to generate simp
             [ "mobile" ], 
             { 
                 "styleColorSelectorsChart": ["#E2B08E", "#CC8074"],
-                "dataXSelectors" : ["Data"],
                 "styleColorCanvasBackground" : "none",
                 "styleColorGridline" : "#2F3138",
                 "styleStrokeGridline" : 1,
                 "styleColorFont" : "#BABABA",
                 "styleColorSelectorsText" : ["#E2B08E", "#BABABA"],
-                "dataSortSelection" : "start",
-                "dataSortCurrent" : "values", 
-                "dataSortByValues" : "ascending", 
-                "showAverage" : false, 
-                "viewDomId" : "customize" 
+                "showAverage" : false,
+                "viewDomId" : "customize"
             }
         )
     </script>
 </div>
-
+[Source Code](../tutorials/dark-mode.html)
 
 ## Speedtest
 
