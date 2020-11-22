@@ -1,9 +1,9 @@
 ---
 sort: 0 # follow a certain sequence of letters or numbers
-title: Client-side (.js)
+title: Getting Started
 ---
 
-# Client-side (.js)
+# Getting Started
 
 - statosio.js Structure
 ```javascript

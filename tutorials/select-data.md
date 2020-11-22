@@ -1,5 +1,5 @@
 ---
-sort: 2 # follow a certain sequence of letters or numbers
+sort: 1 # follow a certain sequence of letters or numbers
 title: Select and change position of columns
 ---
 

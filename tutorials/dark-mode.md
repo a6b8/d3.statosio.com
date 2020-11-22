@@ -1,5 +1,5 @@
 ---
-sort: 0 # follow a certain sequence of letters or numbers
+sort: 3 # follow a certain sequence of letters or numbers
 title: Change style to dark-mode
 ---
 
