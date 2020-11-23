@@ -1,26 +1,26 @@
 [
   {
-    "name": "Miles O'Brien",
+    "name": "Tom Paris",
     "mobile": "25",
     "desktop": "50"
   },
   {
-    "name": "Jonathan Archer",
+    "name": "T'Pol",
     "mobile": "51",
     "desktop": "87"
   },
   {
-    "name": "Kira Nerys",
+    "name": "Deanna Troi",
     "mobile": "49",
     "desktop": "78"
   },
   {
-    "name": "Chakotay",
+    "name": "Odo",
     "mobile": "7",
     "desktop": "60"
   },
   {
-    "name": "Neelix",
+    "name": "Travis Mayweather",
     "mobile": "11",
     "desktop": "35"
   },
@@ -30,12 +30,12 @@
     "desktop": "n/a"
   },
   {
-    "name": "Wesley Crusher",
+    "name": "Leonard McCoy",
     "mobile": "24",
     "desktop": "77"
   },
   {
-    "name": "Seven of Nine",
+    "name": "Natasha Yar",
     "mobile": "13",
     "desktop": "45"
   },
@@ -45,77 +45,77 @@
     "desktop": "82"
   },
   {
-    "name": "Tom Paris",
+    "name": "Seven of Nine",
     "mobile": "48",
     "desktop": "97"
   },
   {
-    "name": "Quark",
+    "name": "Data",
     "mobile": "11",
     "desktop": "60"
   },
   {
-    "name": "Deanna Troi",
+    "name": "Jake Sisko",
     "mobile": "48",
     "desktop": "89"
   },
   {
-    "name": "Data",
+    "name": "Kes",
     "mobile": "33",
     "desktop": "39"
   },
   {
-    "name": "Nyota Uhuru",
+    "name": "Kathryn Janeway",
     "mobile": "47",
     "desktop": "64"
   },
   {
-    "name": "Tuvok",
+    "name": "William T. Riker",
     "mobile": "n/a",
     "desktop": "n/a"
   },
   {
-    "name": "Malcolm Reed",
+    "name": "Pavel Chekov",
     "mobile": "30",
     "desktop": "45"
   },
   {
-    "name": "Worf",
+    "name": "Neelix",
     "mobile": "17",
     "desktop": "50"
   },
   {
-    "name": "Travis Mayweather",
+    "name": "Miles O'Brien",
     "mobile": "26",
     "desktop": "41"
   },
   {
-    "name": "Hikaru Sulu",
+    "name": "The Doctor",
     "mobile": "10",
     "desktop": "63"
   },
   {
-    "name": "Julian Bashir",
+    "name": "Chakotay",
     "mobile": "14",
     "desktop": "55"
   },
   {
-    "name": "Charles Tucker III",
+    "name": "Jonathan Archer",
     "mobile": "51",
     "desktop": "70"
   },
   {
-    "name": "The Doctor",
+    "name": "Montgomery Scott",
     "mobile": "42",
     "desktop": "69"
   },
   {
-    "name": "Montgomery Scott",
+    "name": "Charles Tucker III",
     "mobile": "46",
     "desktop": "74"
   },
   {
-    "name": "Jake Sisko",
+    "name": "Hikaru Sulu",
     "mobile": "22",
     "desktop": "49"
   }
