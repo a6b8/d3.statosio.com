@@ -1,9 +1,9 @@
 ---
 sort: 2
-title: Create simple stacked bar chart
+title: Create a simple stacked bar chart
 ---
 
-# Create simple stacked bar chart
+# Create a simple stacked bar chart
 
 ## Result
 

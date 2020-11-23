@@ -1,9 +1,9 @@
 ---
 sort: 0
-title: Create simple bar chart
+title: Create a simple bar chart
 ---
 
-# Create simple bar chart
+# Create a simple bar chart
 
 ## Result
 

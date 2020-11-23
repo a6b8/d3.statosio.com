@@ -9,8 +9,6 @@ An add-on function for [d3](https://d3js.org){:target="_blank"} to generate simp
 
 :heavy_check_mark: highly customizable with 40+ style and data options.
 
-[Github](https://github.com/a6b8/d3.statosio.com)
-
 
 ## Chart Types
 
