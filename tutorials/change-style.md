@@ -1,5 +1,5 @@
 ---
-sort: 3 # follow a certain sequence of letters or numbers
+sort: 5 # follow a certain sequence of letters or numbers
 title: Change style to dark-mode
 ---
 
@@ -68,6 +68,19 @@ We need following files.
 | d3.js | [https://cdnjs.cloudflare.com/ajax/libs/d3/6.2.0/d3.js](https://cdnjs.cloudflare.com/ajax/libs/d3/6.2.0/d3.js) | d3.js Library | 
 | statosio.js | [../libs/statosio.js](../libs/statosio.js) | statosio.js Library | 
 | performance.json | [../data/performance.json](../data/performance.json) | Dataset |
+
+- statosio.js Structure
+
+```javascript
+d3.statosio( source, x, y, options )
+``````
+
+| | **Value** | **Type** |
+|------:|:------|:------|
+| **Source** | ```[{},{}...]``` | Array of Objects |
+| **X** | ```"name"``` | String |
+| **Y** | ```[ "mobile" ]``` | Array of Strings or String |
+| **Options** | ```{}``` | Object |
 
 
 ### 1: HTML Structure
@@ -309,4 +322,4 @@ List of all "style" Options: [here](../options/index.html#style)
 | **Name** | **Description** | **Details** | 
 | [showAverage](../options/show__average.html) | Calculate and show average line | false |
 
-List of all "style" Options: [here](../options/index.html#show)
+List of all "show" Options: [here](../options/index.html#show)

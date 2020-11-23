@@ -1,23 +1,21 @@
 ---
-sort: 4 # follow a certain sequence of letters or numbers
-title: Sort Dataset by values
+sort: 0
+title: Create simple bar chart
 ---
 
-# Sort dataset by values
+# Create simple bar chart
 
 ## Result
 
-<div id="dataset-result">
+<div id="chart-result">
     <script> 
         d3.statosio( 
             file, 
             "name", 
             [ "mobile" ], 
             { 
-                "dataSortCurrent" : "values", 
-                "dataSortByValues" : "ascending", 
                 "showAverage" : false,
-                "viewDomId" : "dataset-result"
+                "viewDomId" : "chart-result"
             }
         )
     </script>
@@ -39,8 +37,6 @@ title: Sort Dataset by values
                     "name", 
                     [ "mobile" ], 
                     { 
-                        "dataSortCurrent" : "values", 
-                        "dataSortByValues" : "ascending", 
                         "showAverage" : false,
                     }
                 )
@@ -53,7 +49,7 @@ title: Sort Dataset by values
 
 ## Steps
 
-We need following files.
+- We need following files.
 
 | **Name** | **Source** | **Description** |
 | d3.js | [https://cdnjs.cloudflare.com/ajax/libs/d3/6.2.0/d3.js](https://cdnjs.cloudflare.com/ajax/libs/d3/6.2.0/d3.js) | d3.js Library | 
@@ -72,6 +68,7 @@ d3.statosio( source, x, y, options )
 | **X** | ```"name"``` | String |
 | **Y** | ```[ "mobile" ]``` | Array of Strings or String |
 | **Options** | ```{}``` | Object |
+
 
 ### 1: HTML Structure
 Set HTML Structure
@@ -137,6 +134,7 @@ d3.js expect a json array with object in it: ```[ {},{}...]```
 ```
 [Example Dataset](../data/performance.json)
 
+
 ### 5: Set dataset ranges
 Load diagram
 
@@ -177,63 +175,8 @@ Load diagram
 </body>
 ```
 
-[Example Dataset](../data/performance.json)
 
-
-### 6: Add "data" options
-
-- intermediate result
-<div id="intermediate-data">
-    <script> 
-        d3.statosio( 
-            file, 
-            "name", 
-            [ "mobile" ], 
-            { 
-                "dataSortCurrent" : "values", 
-                "dataSortByValues" : "ascending", 
-                "viewDomId" : "intermediate-data" 
-            }
-        )
-    </script>
-</div>
-
-```html
-<!DOCTYPE html>
-<head>
-    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/6.2.0/d3.js"></script>
-    <script src="../libs/statosio.js"></script>
-</head>
-<body>
-    <script>
-        d3.json( "../data/performance.json" )
-            .then( ( file ) => {
-                d3.statosio( 
-                    file, 
-                    "name", 
-                    [ "mobile" ], 
-                    { 
-                        "dataSortCurrent" : "values", 
-                        "dataSortByValues" : "ascending"
-                    }
-                )
-            } 
-        )
-    </script>
-</body>
-```
-
-- Option explained
-
-| **Name** | **Description** | **Details** | 
-| [dataSortCurrent](../options/data__sort__current.html) | Set the general route for sorting. You can choose between "none", "values", "names". | "values" |
-| [dataSortByValues](../options/data__sort__by__values.html) | Here you can set type of sorting. You can choose between "ascending" and "decending" | "ascending" |
-
-List of all "data" Options: [here](../options/index.html#data)
-
-
-### 7: Add "show" options
+### 6: Add "show" options
 
 - intermediate result
 <div id="intermediate-show">
@@ -243,8 +186,6 @@ List of all "data" Options: [here](../options/index.html#data)
             "name", 
             [ "mobile" ], 
             { 
-                "dataSortCurrent" : "values", 
-                "dataSortByValues" : "ascending", 
                 "showAverage" : false,
                 "viewDomId" : "intermediate-show"
             }
@@ -268,8 +209,6 @@ List of all "data" Options: [here](../options/index.html#data)
                     "name", 
                     [ "mobile" ], 
                     { 
-                        "dataSortCurrent" : "values", 
-                        "dataSortByValues" : "ascending", 
                         "showAverage" : false,
                     }
                 )

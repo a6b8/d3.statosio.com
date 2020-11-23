@@ -3,8 +3,6 @@
 An add-on function for [d3](https://d3js.org){:target="_blank"} to generate simple chart diagrams, fast and reliable.
 
 
-## Features
-
 :heavy_check_mark: build simple diagrams fast and reliable, with one function!
 
 :heavy_check_mark: pure javascript, no additonal css.
@@ -25,8 +23,7 @@ An add-on function for [d3](https://d3js.org){:target="_blank"} to generate simp
         )
     </script>
 </div>
-[Source Code](../options/show__average.html#source-code-1) | [Download Source Code as .zip](../sources/showAverage.zip)
-
+[Create simple bar chart](../tutorials/simple-bar-chart.html)
 
 ### Point Charts
 
@@ -40,7 +37,7 @@ An add-on function for [d3](https://d3js.org){:target="_blank"} to generate simp
         )
     </script>
 </div>
-[Source Code](../options/show__data_as_circle.html#source-code-2) | [Download Source Code as .zip](../sources/showDataAsCircle.zip)
+[Create a simple point chart](../tutorials/simple-point-chart.html)
 
 ### Stacked Bar Charts
 
@@ -54,8 +51,7 @@ An add-on function for [d3](https://d3js.org){:target="_blank"} to generate simp
         )
     </script>
 </div>
-[Source Code](../options/show__legend.html#source-code-2) | [Download Source Code as .zip](../sources/showLegend.zip)
-
+[Create simple stacked bar chart](../tutorials/simple-stacked-bar-chart.html)
 
 ## Features
 
@@ -76,8 +72,7 @@ An add-on function for [d3](https://d3js.org){:target="_blank"} to generate simp
         )
     </script>
 </div>
-[Source Code](../tutorials/select-data.html)
-
+[Select and change position of columns](../tutorials/select-data.html)
 
 ### Sort Data<br><br>
 
@@ -96,8 +91,7 @@ An add-on function for [d3](https://d3js.org){:target="_blank"} to generate simp
         )
     </script>
 </div>
-[Source Code](../tutorials/sort-data.html)
-
+[Sort dataset by values](../tutorials/sort-data.html)
 
 ### Customize Style
 
@@ -120,7 +114,7 @@ An add-on function for [d3](https://d3js.org){:target="_blank"} to generate simp
         )
     </script>
 </div>
-[Source Code](../tutorials/dark-mode.html)
+[Change style to dark-mode](../tutorials/change-style.html)
 
 ## Speedtest
 
