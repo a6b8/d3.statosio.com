@@ -1,26 +1,26 @@
 [
   {
-    "name": "Kathryn Janeway",
+    "name": "Tom Paris",
     "mobile": "25",
     "desktop": "50"
   },
   {
-    "name": "B'Elanna Torres",
+    "name": "T'Pol",
     "mobile": "51",
     "desktop": "87"
   },
   {
-    "name": "Hoshi Sato",
+    "name": "Deanna Troi",
     "mobile": "49",
     "desktop": "78"
   },
   {
-    "name": "Worf",
+    "name": "Odo",
     "mobile": "7",
     "desktop": "60"
   },
   {
-    "name": "T'Pol",
+    "name": "Travis Mayweather",
     "mobile": "11",
     "desktop": "35"
   },
@@ -30,87 +30,87 @@
     "desktop": "n/a"
   },
   {
-    "name": "Kes",
+    "name": "Leonard McCoy",
     "mobile": "24",
     "desktop": "77"
   },
   {
-    "name": "Jake Sisko",
+    "name": "Natasha Yar",
     "mobile": "13",
     "desktop": "45"
   },
   {
-    "name": "Miles O'Brien",
+    "name": "Jadzia Dax",
     "mobile": "41",
     "desktop": "82"
   },
   {
-    "name": "Jonathan Archer",
+    "name": "Seven of Nine",
     "mobile": "48",
     "desktop": "97"
   },
   {
-    "name": "Charles Tucker III",
+    "name": "Data",
     "mobile": "11",
     "desktop": "60"
   },
   {
-    "name": "Nyota Uhuru",
+    "name": "Jake Sisko",
     "mobile": "48",
     "desktop": "89"
   },
   {
-    "name": "Data",
+    "name": "Kes",
     "mobile": "33",
     "desktop": "39"
   },
   {
-    "name": "Chakotay",
+    "name": "Kathryn Janeway",
     "mobile": "47",
     "desktop": "64"
   },
   {
-    "name": "Jean-Luc Picard",
+    "name": "William T. Riker",
     "mobile": "n/a",
     "desktop": "n/a"
   },
   {
-    "name": "Wesley Crusher",
+    "name": "Pavel Chekov",
     "mobile": "30",
     "desktop": "45"
   },
   {
-    "name": "Quark",
+    "name": "Neelix",
     "mobile": "17",
     "desktop": "50"
   },
   {
-    "name": "Phlox",
+    "name": "Miles O'Brien",
     "mobile": "26",
     "desktop": "41"
   },
   {
-    "name": "Neelix",
+    "name": "The Doctor",
     "mobile": "10",
     "desktop": "63"
   },
   {
-    "name": "Julian Bashir",
+    "name": "Chakotay",
     "mobile": "14",
     "desktop": "55"
   },
   {
-    "name": "Montgomery Scott",
+    "name": "Jonathan Archer",
     "mobile": "51",
     "desktop": "70"
   },
   {
-    "name": "William T. Riker",
+    "name": "Montgomery Scott",
     "mobile": "42",
     "desktop": "69"
   },
   {
-    "name": "Beverly Crusher",
+    "name": "Charles Tucker III",
     "mobile": "46",
     "desktop": "74"
   },
