@@ -1,36 +1,36 @@
 [
   {
-    "name": "Spock",
+    "name": "T'Pol",
     "mobile": "25",
     "desktop": "50"
   },
   {
-    "name": "Kathryn Janeway",
+    "name": "Hikaru Sulu",
     "mobile": "51",
     "desktop": "87"
   },
   {
-    "name": "Jadzia Dax",
+    "name": "Seven of Nine",
     "mobile": "49",
     "desktop": "78"
   },
   {
-    "name": "Chakotay",
+    "name": "Spock",
     "mobile": "7",
     "desktop": "60"
   },
   {
-    "name": "Julian Bashir",
+    "name": "Travis Mayweather",
     "mobile": "11",
     "desktop": "35"
   },
   {
-    "name": "Hikaru Sulu",
+    "name": "Wesley Crusher",
     "mobile": "n/a",
     "desktop": "n/a"
   },
   {
-    "name": "Tom Paris",
+    "name": "Kathryn Janeway",
     "mobile": "24",
     "desktop": "77"
   },
@@ -40,82 +40,82 @@
     "desktop": "45"
   },
   {
-    "name": "Leonard McCoy",
+    "name": "Tom Paris",
     "mobile": "41",
     "desktop": "82"
   },
   {
-    "name": "Data",
+    "name": "Charles Tucker III",
     "mobile": "48",
     "desktop": "97"
   },
   {
-    "name": "Harry Kim",
+    "name": "Hoshi Sato",
     "mobile": "11",
     "desktop": "60"
   },
   {
-    "name": "Worf",
+    "name": "Pavel Chekov",
     "mobile": "48",
     "desktop": "89"
   },
   {
-    "name": "Jean-Luc Picard",
+    "name": "Data",
     "mobile": "33",
     "desktop": "39"
   },
   {
-    "name": "Charles Tucker III",
+    "name": "Kes",
     "mobile": "47",
     "desktop": "64"
   },
   {
-    "name": "William T. Riker",
+    "name": "Leonard McCoy",
     "mobile": "n/a",
     "desktop": "n/a"
   },
   {
-    "name": "Natasha Yar",
+    "name": "Montgomery Scott",
     "mobile": "30",
     "desktop": "45"
   },
   {
-    "name": "Neelix",
+    "name": "Julian Bashir",
     "mobile": "17",
     "desktop": "50"
   },
   {
-    "name": "Seven of Nine",
+    "name": "Jonathan Archer",
     "mobile": "26",
     "desktop": "41"
   },
   {
-    "name": "Odo",
+    "name": "The Doctor",
     "mobile": "10",
     "desktop": "63"
   },
   {
-    "name": "T'Pol",
+    "name": "Tuvok",
     "mobile": "14",
     "desktop": "55"
   },
   {
-    "name": "The Doctor",
+    "name": "William T. Riker",
     "mobile": "51",
     "desktop": "70"
   },
   {
-    "name": "Nyota Uhuru",
+    "name": "Harry Kim",
     "mobile": "42",
     "desktop": "69"
   },
   {
-    "name": "Malcolm Reed",
+    "name": "Kira Nerys",
     "mobile": "46",
     "desktop": "74"
   },
   {
-    "name": "Pavel Chekov",
+    "name": "Phlox",
     "mobile": "22",
     "desktop": "49"
   }
