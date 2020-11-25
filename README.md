@@ -1,6 +1,6 @@
 ![# d3.statosio](./assets/images/d3-statosio-200.png)
 
-Statosio is an add-on function for [d3](https://d3js.org){:target="_blank"} to generate simple charts, in a fast and reliable way.Statosio is an add-on function for d3 to generate simple charts, in a fast and reliable way.
+Statosio.js is an add-on function for [d3](https://d3js.org){:target="_blank"} to generate simple charts, in a fast and reliable way.
 
 :heavy_check_mark: build simple diagrams fast and reliable, with one function!
 
