@@ -1,6 +1,6 @@
 title: statosio.js
 lang: en
-description: Produce diagrams faster!
+description: Simple chart diagrams
 
 plugins:
     - jekyll-default-layout
