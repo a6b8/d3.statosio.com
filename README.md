@@ -8,6 +8,9 @@ Statosio.js is an add-on function for [d3](https://d3js.org){:target="_blank"} t
 
 :heavy_check_mark: highly customizable with 40+ style and data options.
 
+## Video Introduction
+<iframe width="560" height="315" src="https://www.youtube.com/embed/i6od9O8jz1E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## Chart Types
 
