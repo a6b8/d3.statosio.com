@@ -6,7 +6,7 @@
     },
     "live": {
       "d3": "https://cdnjs.cloudflare.com/ajax/libs/d3/6.2.0/d3.js",
-      "self": "../libs/statosio.js"
+      "self": "https://cdnjs.cloudflare.com/ajax/libs/statosio/0.9/statosio.js"
     }
   },
   "datasets": {
