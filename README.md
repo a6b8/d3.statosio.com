@@ -11,6 +11,7 @@ Statosio.js is an add-on function for [d3](https://d3js.org){:target="_blank"} t
 ```html
     <script src="https://cdnjs.cloudflare.com/ajax/libs/statosio/0.9/statosio.js"></script>
 ```
+[![CDNJS](https://img.shields.io/cdnjs/v/statosio.svg)](https://cdnjs.com/libraries/statosio)
 
 ## Video Introduction
 
